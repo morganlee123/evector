@@ -52,7 +52,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 def get_model():
-    model_save_path = Path('/research/iprobe-sandle20/Playground/evector/encoder/saved_models/first.pt') # NOTE: Add your own path here to your saved model
+    model_save_path = Path('/research/iprobe-sandle20/Playground/evector/encoder/saved_models/first_backups/first_bak_105000.pt') # NOTE: Add your own path here to your saved model
     module_name = 'model_GST'
     encoder.load_model(model_save_path, module_name=module_name)
     return encoder
@@ -70,8 +70,9 @@ def get_tensor(file_path, preprocess=True, sampling_rate=8000, duration=None):
 encoder = get_model()
 def get_speaker_embedding(file_path, preprocess=True, sampling_rate=16000, duration=None, normalize=True):
     ref_audio = get_tensor(file_path, preprocess=preprocess, sampling_rate=sampling_rate, duration=duration)
+    print('ref audio', ref_audio.shape)
     embed, partial_embeds, _  = encoder.embed_utterance(ref_audio, return_partials=True)
-
+    print(embed.shape)
     if(normalize):
         embed = embed / np.linalg.norm(embed)
     return embed

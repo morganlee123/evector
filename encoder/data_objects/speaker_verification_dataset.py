@@ -4,6 +4,7 @@ from encoder.data_objects.speaker import Speaker
 from encoder.params_data import partials_n_frames
 from torch.utils.data import Dataset, DataLoader
 from pathlib import Path
+from itertools import combinations
 
 # TODO: improve with a pool of speakers for data efficiency
 class SpeakerVerificationDataset(Dataset):
@@ -30,6 +31,11 @@ class SpeakerVerificationDataset(Dataset):
                 log_string += "".join(log_file.readlines())
         return log_string
 
+
+    def get_speaker_verification_combinations(self):
+        list_of_speaker_combinations = list(combinations(self.speakers, 2))
+        
+        return list_of_speaker_combinations
 
 class SpeakerVerificationDataLoader(DataLoader):
     def __init__(self, dataset, speakers_per_batch, utterances_per_speaker, sampler=None,

@@ -33,7 +33,7 @@ import pickle
 
 
 def get_model():
-    model_save_path = Path('/research/iprobe-sandle20/Playground/evector/encoder/saved_models/first_backups/first_bak_037500.pt') # NOTE: Add your own path here to your saved model. Be careful of which step/model you are loading
+    model_save_path = Path('/research/iprobe-sandle20/Playground/evector/encoder/saved_models/first_backups/first_bak_105000.pt') # NOTE: Add your own path here to your saved model. Be careful of which step/model you are loading
     module_name = 'model_GST'
     encoder.load_model(model_save_path, module_name=module_name)
     return encoder
@@ -51,6 +51,7 @@ def get_tensor(file_path, preprocess=True, sampling_rate=8000, duration=None):
 encoder = get_model()
 def get_speaker_embedding(file_path, preprocess=True, sampling_rate=16000, duration=None, normalize=True):
     ref_audio = get_tensor(file_path, preprocess=preprocess, sampling_rate=sampling_rate, duration=duration)
+    print(ref_audio.shape)
     embed, partial_embeds, _  = encoder.embed_utterance(ref_audio, return_partials=True)
 
     if(normalize):
@@ -72,7 +73,7 @@ def get_combinations(root_of_data : Path, preprocessed_already=True):
         
         #print(list_of_samples[0:10])
         return list_of_samples
-        return
+        
     else:
         # Assumes the input is .npy files (already preprocessed)
         # run the get_speaker_embedding with preprocess = False. This will allow for the use
@@ -117,18 +118,17 @@ else:
 
 results = []
 
-print(combos[0:2]) # TODO: Remove this debug statment
-# TODO: THE NEXT PROBLEM TO SOLVE IS THE FIXING THE .NPY FILES. IM NOT QUITE SURE HOW TO ACTUALLY LOAD AND PREPROCESS THOSE
-# AGAIN. IN THE UTTERANCE DATA OBJECT THEY NP.LOAD THEM, BUT IM NOT QUITE SURE WHAT THAT MEANS
-
-# Perform the SV experiment on the combos
-for sampleA , sampleB in tqdm(combos):
-    match_score = speaker_verification(sampleA[1], sampleB[1], already_preprocessed=int(sys.argv[2])) # if 1 then true. 0 false
-    results.append(('gen' if sampleA[0] == sampleB[0] else 'imp', match_score))
+for sampleA, sampleB in tqdm(combos):
+    print(sampleA, sampleB)
+    #match_score = speaker_verification()
+    #print(match_score)
+    break
+    
+    #results.append(('gen' if sampleA[0] == sampleB[0] else 'imp', match_score, emotion))
 
 # Save the results of the experiment
-np.savetxt("ExperimentData/SpeakerID_Experiment_Results.csv", 
-           results,
-           delimiter =", ", 
-           fmt ='% s')
+#np.savetxt("ExperimentData/SpeakerID_Experiment_Results.csv", 
+#           results,
+#           delimiter =", ", 
+#           fmt ='% s')
 
