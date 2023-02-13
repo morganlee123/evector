@@ -1,0 +1,8 @@
+ % python evec_results_analysis.py
+results loaded in
+19119 genuine scores, 529952 impostor scores loaded
+Average Male Genuine Match Score 0.4687425659161294 ( 9255 ) scores
+Average Female Genuine Match Score 0.494972730679756 ( 9864 ) scores
+Average Male Impostor Match Score 0.04888048952858737 ( 127542 ) scores
+Average Female Impostor Match Score 0.06654031110275228 ( 127965 ) scores
+Average Diff-Gender Impostor Match Score -0.010272763680254182 ( 274445 ) scores
