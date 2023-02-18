@@ -1,0 +1,8 @@
+ % python ecapa_results_analysis.py
+results loaded in
+20483 genuine scores, 283323 impostor scores loaded
+Average Male Genuine Match Score 0.5471666125517538 ( 15110 ) scores
+Average Female Genuine Match Score 0.4557991092192629 ( 5373 ) scores
+Average Male Impostor Match Score 0.4670790328920483 ( 77580 ) scores
+Average Female Impostor Match Score 0.41962829421626313 ( 55226 ) scores
+Average Diff-Gender Impostor Match Score 0.3773511680977019 ( 150517 ) scores

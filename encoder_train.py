@@ -3,6 +3,9 @@ from encoder.train import train
 from pathlib import Path
 import argparse
 
+# Usage:
+# python encoder_train.py first /research/iprobe-sandle20/Playground/evector/Data/EVec/encoder/Train --module_name model_GST
+# python encoder_train.py first /research/iprobe-sandle20/Playground/evector/Data/EVec/encoder/Train --module_name ecapa_tdnn
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
@@ -42,8 +45,6 @@ if __name__ == "__main__":
         "Select the GPU to run the code")
     parser.add_argument("--module_name", type=str, default="model_baseline")
     args = parser.parse_args()
-
-    # python encoder_train.py first /research/iprobe-sandle20/Playground/evector/Data/EVec/encoder/Train --module_name model_GST
 
 
     # Process the arguments

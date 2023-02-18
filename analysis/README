@@ -1,0 +1,4 @@
+All the analysis for the E-Vector Architecture can be found in this folder. Semilog refers to the ROC curve computed as Semi-log (x-axis is logarithmic). That is the only difference from the regular analysis.
+I did recompute the analyses in both scenarios. Each run of an analysis 0.5%-1% of the results (randomly sampling) are used in the figures.
+The justification of this is that I have over 150+ MILLION speaker verification scores computed and do not have the resources to
+fully compute out these figures. 
