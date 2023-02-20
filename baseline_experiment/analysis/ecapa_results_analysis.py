@@ -73,13 +73,55 @@ impostor_scores = [i['MatchScore'] for i in impostor]
 total_scores = np.concatenate([genuine_scores, impostor_scores])
 ground_truth = np.concatenate([[1 for i in range(len(genuine_scores))], [0 for i in range(len(impostor_scores))]])
 
+
+#### ROC CURVE
+
 from sklearn import metrics
+from sklearn.metrics import roc_curve
+from bisect import bisect
+
 metrics.RocCurveDisplay.from_predictions(ground_truth, total_scores)
-#plt.xscale("log") # NOTE: This gives semi-log. Feel free to comment this out
+
+
+fpr, tpr, _ = roc_curve(
+            ground_truth,
+            total_scores,
+            pos_label=None,
+            sample_weight=None,
+            drop_intermediate=True,
+        )
+print('TMR@FMR{1%, 10%}', tpr[bisect(fpr, .01)], tpr[bisect(fpr, .1)])
+
+plt.xscale("log") # NOTE: This gives semi-log. Feel free to comment this out
 plt.savefig(sys.argv[1]+'_roc.jpg')
 
 
-# TODO: Left off debugging why the female scores are Nan. It might be because there is a hidden space or something like that
+#### END ROC CURVE
+
+################################# 
+
+# Get minDCF
+from speechbrain.utils.metric_stats import minDCF, EER
+import torch
+
+
+gen = torch.Tensor(genuine_scores) 
+imp = torch.Tensor(impostor_scores)
+
+# Get EER
+print('Computing EER...')
+val_eer, threshold_eer = EER(gen,imp)
+print('EER:', val_eer, '. Threshold@', threshold_eer)
+
+# MINDCF params c_miss=1.0, c_fa=1.0, p_target=0.01
+#print('Computing MinDCF...')
+#val_minDCF, threshold_dcf = minDCF(gen,imp)
+#print('MinDCF:', val_minDCF, '. Threshold@', threshold_dcf) # TODO: For some reason this function allocates 300 GB
+
+
+
+#################################
+
 print('Average Male Genuine Match Score', np.mean(match_score_genuine_male), '(',len(match_score_genuine_male),') scores')
 print('Average Female Genuine Match Score', np.mean(match_score_genuine_female), '(',len(match_score_genuine_female),') scores')
 

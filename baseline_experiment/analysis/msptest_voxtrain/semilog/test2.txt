@@ -1,7 +1,10 @@
 results loaded in
-6095 genuine scores, 118834 impostor scores loaded
-Average Male Genuine Match Score 0.53665733125 ( 2300 ) scores
-Average Female Genuine Match Score 0.5025665550621872 ( 3795 ) scores
-Average Male Impostor Match Score 0.42795626232339434 ( 31747 ) scores
-Average Female Impostor Match Score 0.4133026377992211 ( 25125 ) scores
-Average Diff-Gender Impostor Match Score 0.31558104993039926 ( 61962 ) scores
+6107 genuine scores, 118978 impostor scores loaded
+TMR@FMR{1%, 10%} 0.13988245172124264 0.4424853064651553 
+Computing EER...
+EER: 0.29067543148994446 . Threshold@ 0.4424770474433899
+Average Male Genuine Match Score 0.5342447973631356 ( 2360 ) scores
+Average Female Genuine Match Score 0.5016306254203363 ( 3747 ) scores
+Average Male Impostor Match Score 0.4273147753179181 ( 31722 ) scores
+Average Female Impostor Match Score 0.41228366437532665 ( 25100 ) scores
+Average Diff-Gender Impostor Match Score 0.3157843448973164 ( 62156 ) scores
