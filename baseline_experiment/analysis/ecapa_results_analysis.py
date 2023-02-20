@@ -101,22 +101,22 @@ plt.savefig(sys.argv[1]+'_roc.jpg')
 ################################# 
 
 # Get minDCF
-from speechbrain.utils.metric_stats import minDCF, EER
+from speechbrain.utils.metric_stats import EER
+from metric import minDCF
 import torch
-
 
 gen = torch.Tensor(genuine_scores) 
 imp = torch.Tensor(impostor_scores)
 
 # Get EER
-print('Computing EER...')
-val_eer, threshold_eer = EER(gen,imp)
-print('EER:', val_eer, '. Threshold@', threshold_eer)
+#print('Computing EER...')
+#val_eer, threshold_eer = EER(gen,imp)
+#print('EER:', val_eer, '. Threshold@', threshold_eer)
 
 # MINDCF params c_miss=1.0, c_fa=1.0, p_target=0.01
-#print('Computing MinDCF...')
-#val_minDCF, threshold_dcf = minDCF(gen,imp)
-#print('MinDCF:', val_minDCF, '. Threshold@', threshold_dcf) # TODO: For some reason this function allocates 300 GB
+print('Computing MinDCF...')
+val_minDCF, threshold_dcf = minDCF(gen,imp, c_miss=10)
+print('MinDCF:', val_minDCF, '. Threshold@', threshold_dcf) # TODO: For some reason this function allocates 300 GB
 
 
 

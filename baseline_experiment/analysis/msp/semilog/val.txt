@@ -1,7 +1,7 @@
 results loaded in
 19362 genuine scores, 267708 impostor scores loaded
 TMR@FMR{1%, 10%} 0.19433884722079522 0.5514229939381485
-Computing EER...
+MinDCF: 0.09024320542812347 . Threshold@ 0.472112774848938
 EER: 0.2461523860692978 . Threshold@ 0.21131867170333862
 Average Male Genuine Match Score 0.3282304907887822 ( 14452 ) scores
 Average Female Genuine Match Score 0.3398934522074338 ( 4910 ) scores
