@@ -244,13 +244,38 @@ class SpeakerEncoder(nn.Module):
             eer = brentq(lambda x: 1. - x - interp1d(fpr, tpr)(x), 0., 1.)
 
         return loss, eer
+    
+    def get_parm_count(self):
+        import functools
+        total = 0
+        for params in self.layer1.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        for params in self.layer2.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        for params in self.layer3.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        for params in self.layer4.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        for params in self.conv.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        for params in self.pooling.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        for params in self.bn1.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        for params in self.linear.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)        
+        for params in self.bn2.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        total += len(self.similarity_weight)
+        total += len(self.similarity_bias)
+        for params in self.loss_fn.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        return total
 
-
-
-if __name__ == '__main__':
-    # Input size: batch_size * seq_len * feat_dim
-    x = torch.zeros(2, 200, 80)
-    model = ECAPA_TDNN(in_channels=80, channels=512, embd_dim=192)
-    out = model(x)
-    print(model)
-    print(out.shape)    # should be [2, 192]
+#if __name__ == '__main__':
+#    # Input size: batch_size * seq_len * feat_dim
+#    x = torch.zeros(2, 200, 80)
+#    model = ECAPA_TDNN(in_channels=80, channels=512, embd_dim=192)
+#    out = model(x)
+#    print(model)
+#    print(out.shape)    # should be [2, 192]

@@ -224,3 +224,32 @@ class SpeakerEncoder(nn.Module):
             eer = brentq(lambda x: 1. - x - interp1d(fpr, tpr)(x), 0., 1.)
 
         return loss, eer
+
+    #@property
+    def get_parm_count(self):
+        import functools
+        total = 0
+        for params in self.fCNN.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        for params in self.OneDCNN.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        for params in self.gst.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        for params in self.temporal_aggregation.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        for params in self.regularization.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        for params in self.linear.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        for params in self.lstm.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        for params in self.relu.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        for params in self.selu.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        total += len(self.similarity_weight)
+        total += len(self.similarity_bias)
+        for params in self.loss_fn.parameters():
+            total += functools.reduce(lambda x, y: x * y, params.shape)
+        
+        return total
