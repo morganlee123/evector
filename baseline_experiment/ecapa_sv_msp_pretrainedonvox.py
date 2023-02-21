@@ -15,7 +15,6 @@ from tqdm import tqdm
 import pickle
 from speechbrain.pretrained import EncoderClassifier
 from audio import preprocess_wav
-import torchaudio
 #
 # Author: Morgan Sandler (sandle20@msu.edu)
 # The purpose of this file is to perform a speaker verification between two directly provided .wav audio samples. 
@@ -36,7 +35,7 @@ def get_tensor(file_path, preprocess=True, sampling_rate=16000, duration=None):
     return torch.Tensor(ref_audio)
    
 
-classifier = EncoderClassifier.from_hparams(source="speechbrain/spkrec-ecapa-voxceleb") # TODO: eventually train this. PRETRAINED voxceleb ECAPA
+classifier = EncoderClassifier.from_hparams(source="speechbrain/spkrec-ecapa-voxceleb") # pretrained voxceleb model
 def get_speaker_embedding(file_path, preprocess=True, sampling_rate=16000, duration=None, normalize=True):
     ref_audio = get_tensor(file_path, preprocess=preprocess, sampling_rate=sampling_rate, duration=duration)
 
