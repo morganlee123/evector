@@ -1,0 +1,773 @@
+results loaded in
+5418 genuine scores, 101547 impostor scores loaded
+['U' 'A' 'N' 'X' 'H' 'C' 'O' 'D' 'S' 'F']
+EMOTION  Angry
+GENUINE INTRA Angry 
+ Mean Score: 0.5171438177777777 A: 5.800000000000001  V: 2.4 D: 5.766666666666667 
+ Max Score: 0.7912302 A: 5.9  V: 2.0 D: 5.8 
+ Min Score: 0.24559341 A: 5.8  V: 1.9 D: 5.9 
+
+----------------------------------------------------------------------
+EMOTION  Sad
+GENUINE INTRA Sad 
+ Mean Score: 0.706877598 A: 2.54  V: 2.4 D: 2.98 
+ Max Score: 0.85552645 A: 1.0  V: 2.0 D: 2.5 
+ Min Score: 0.5670703 A: 3.0  V: 3.3 D: 3.1 
+
+----------------------------------------------------------------------
+EMOTION  Happy
+GENUINE INTRA Happy 
+ Mean Score: 0.4413666187743017 A: 4.8812276396648056  V: 4.977118033519555 D: 4.925695614525139 
+ Max Score: 0.9662042 A: 4.8  V: 4.9 D: 6.0 
+ Min Score: -0.45036206 A: 4.7  V: 4.9 D: 3.9 
+
+----------------------------------------------------------------------
+EMOTION  Surprise
+GENUINE INTRA Surprise 
+ Mean Score: 0.47792713000000003 A: 5.155555666666666  V: 4.255555666666667 D: 5.061111166666667 
+ Max Score: 0.6994337 A: 5.5  V: 4.3 D: 5.5 
+ Min Score: 0.14172952 A: 5.300000000000001  V: 3.8 D: 4.6 
+
+----------------------------------------------------------------------
+EMOTION  Fear
+GENUINE INTRA Fear 
+ Mean Score: 0.6046602400000001 A: 4.4  V: 4.6499999999999995 D: 4.6 
+ Max Score: 0.7233479 A: 4.1  V: 4.6 D: 4.300000000000001 
+ Min Score: 0.48597258 A: 4.699999999999999  V: 4.699999999999999 D: 4.9 
+
+----------------------------------------------------------------------
+EMOTION  Disgust
+GENUINE INTRA Disgust 
+ Mean Score: 0.39622444 A: 4.625  V: 3.2583335 D: 5.2666664999999995 
+ Max Score: 0.39622444 A: 4.625  V: 3.2583335 D: 5.2666664999999995 
+ Min Score: 0.39622444 A: 4.625  V: 3.2583335 D: 5.2666664999999995 
+
+----------------------------------------------------------------------
+EMOTION  Contempt
+GENUINE INTRA Contempt 
+ Mean Score: 0.46440346746153843 A: 3.89294873076923  V: 3.594871807692307 D: 4.124999999999999 
+ Max Score: 0.8354286 A: 5.0333335  V: 4.7166665 D: 5.6 
+ Min Score: -0.056803197 A: 4.7  V: 4.699999999999999 D: 4.699999999999999 
+
+----------------------------------------------------------------------
+EMOTION  Neutral
+GENUINE INTRA Neutral 
+ Mean Score: 0.5209516049409462 A: 3.8482459364864887  V: 3.8403088195945965 D: 3.897797465202702 
+ Max Score: 0.9794121 A: 3.5  V: 3.5 D: 4.0 
+ Min Score: -0.37812975 A: 5.05  V: 5.1916665 D: 5.25 
+
+----------------------------------------------------------------------
+EMOTION  Other
+GENUINE INTRA Other 
+ Mean Score: nan A: nan  V: nan D: nan 
+ Max Score: N/A A: N/A  V: N/A D: N/A 
+ Min Score: N/A A: N/A  V: N/A D: N/A 
+
+----------------------------------------------------------------------
+EMOTION  No Agreement
+GENUINE INTRA No Agreement 
+ Mean Score: 0.4692570914399999 A: 4.5044571520000005  V: 4.3281893799999995 D: 4.673139572 
+ Max Score: 0.94467163 A: 4.3  V: 4.5 D: 4.8 
+ Min Score: -0.18349347 A: 4.4666665  V: 3.8166665 D: 4.3833335 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION Sad
+GENUINE INTER Angry vs Sad 
+ Mean Score: 0.467000043 A: 4.109999999999999  V: 2.41 D: 4.25 
+ Max Score: 0.8041048 A: 4.1  V: 1.6 D: 3.9 
+ Min Score: 0.16136968 A: 3.3  V: 2.6 D: 4.0 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION Happy
+GENUINE INTER Angry vs Happy 
+ Mean Score: 0.48650124356521735 A: 5.313405804347827  V: 3.7983974456521734 D: 5.26795070652174 
+ Max Score: 0.88296103 A: 4.9833335000000005  V: 3.0916664999999997 D: 5.25 
+ Min Score: -0.070098564 A: 4.3  V: 4.4 D: 4.199999999999999 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION Surprise
+GENUINE INTER Angry vs Surprise 
+ Mean Score: 0.5125867080416666 A: 5.470833333333333  V: 3.6287812500000003 D: 5.2500963333333335 
+ Max Score: 0.81173855 A: 5.7  V: 3.7 D: 5.300000000000001 
+ Min Score: -0.045360982 A: 5.4  V: 5.018182 D: 5.5454545 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION Fear
+GENUINE INTER Angry vs Fear 
+ Mean Score: 0.5603349 A: 5.35  V: 2.925 D: 4.800000000000001 
+ Max Score: 0.70361257 A: 5.3  V: 2.4 D: 4.0 
+ Min Score: 0.27368367 A: 5.7  V: 3.8 D: 5.5 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION Disgust
+GENUINE INTER Angry vs Disgust 
+ Mean Score: 0.38281224875000003 A: 4.8854166249999995  V: 3.483333375 D: 5.01875 
+ Max Score: 0.6968502 A: 4.6  V: 1.8 D: 5.0 
+ Min Score: 0.038702395 A: 5.1  V: 4.6 D: 5.0 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION Contempt
+GENUINE INTER Angry vs Contempt 
+ Mean Score: 0.45332858213333344 A: 4.262222233333334  V: 2.4266666666666667 D: 4.0688889 
+ Max Score: 0.72319055 A: 3.3  V: 1.6 D: 3.7 
+ Min Score: 0.062348332 A: 3.3  V: 2.9 D: 2.8 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION Neutral
+GENUINE INTER Angry vs Neutral 
+ Mean Score: 0.477022393 A: 4.806314354330709  V: 3.1236400669291324 D: 4.799657484251966 
+ Max Score: 0.89781374 A: 6.1  V: 3.9333335000000003 D: 5.5333335 
+ Min Score: -0.33457178 A: 5.2  V: 4.5 D: 4.7 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION Other
+GENUINE INTER Angry vs Other 
+ Mean Score: nan A: nan  V: nan D: nan 
+ Max Score: N/A A: N/A  V: N/A D: N/A 
+ Min Score: N/A A: N/A  V: N/A D: N/A 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION No Agreement
+GENUINE INTER Angry vs No Agreement 
+ Mean Score: 0.4392081599999999 A: 5.001436793103448  V: 3.427298844827586 D: 5.100000000000001 
+ Max Score: 0.90706646 A: 4.800000000000001  V: 3.4000000000000004 D: 4.5 
+ Min Score: -0.0373738 A: 4.7  V: 4.3 D: 5.0 
+
+----------------------------------------------------------------------
+EMOTION  Sad vs EMOTION Happy
+GENUINE INTER Sad vs Happy 
+ Mean Score: 0.5010868646666666 A: 3.7058333333333335  V: 3.52055555 D: 3.9924603 
+ Max Score: 0.93323576 A: 3.2916665  V: 3.25 D: 3.5 
+ Min Score: 0.09488438 A: 3.0  V: 2.9 D: 3.3 
+
+----------------------------------------------------------------------
+EMOTION  Sad vs EMOTION Surprise
+GENUINE INTER Sad vs Surprise 
+ Mean Score: 0.5817005142857142 A: 3.557142857142857  V: 3.314285714285715 D: 3.7857142857142856 
+ Max Score: 0.8733961 A: 4.6  V: 3.8 D: 4.4 
+ Min Score: 0.24781689 A: 4.5  V: 4.1 D: 4.800000000000001 
+
+----------------------------------------------------------------------
+EMOTION  Sad vs EMOTION Fear
+GENUINE INTER Sad vs Fear 
+ Mean Score: 0.7651283 A: 2.8  V: 2.4 D: 2.4 
+ Max Score: 0.7651283 A: 2.8  V: 2.4 D: 2.4 
+ Min Score: 0.7651283 A: 2.8  V: 2.4 D: 2.4 
+
+----------------------------------------------------------------------
+EMOTION  Sad vs EMOTION Disgust
+GENUINE INTER Sad vs Disgust 
+ Mean Score: 0.3369306633333333 A: 3.8083333333333336  V: 2.8861111666666663 D: 4.422222166666667 
+ Max Score: 0.58349794 A: 2.8  V: 2.3 D: 4.0 
+ Min Score: 0.08401201 A: 4.525  V: 2.8583334999999996 D: 4.5666665 
+
+----------------------------------------------------------------------
+EMOTION  Sad vs EMOTION Contempt
+GENUINE INTER Sad vs Contempt 
+ Mean Score: 0.2754366275 A: 3.45  V: 2.725 D: 3.5999999999999996 
+ Max Score: 0.36000645 A: 3.0  V: 2.7 D: 3.1 
+ Min Score: 0.21189743 A: 4.6  V: 3.5999999999999996 D: 4.9 
+
+----------------------------------------------------------------------
+EMOTION  Sad vs EMOTION Neutral
+GENUINE INTER Sad vs Neutral 
+ Mean Score: 0.5369734933846153 A: 2.973076923076923  V: 2.986111108974359 D: 3.2198718012820513 
+ Max Score: 0.9610673 A: 2.0  V: 3.0 D: 3.0 
+ Min Score: -0.14342937 A: 2.5  V: 3.8 D: 2.9 
+
+----------------------------------------------------------------------
+EMOTION  Sad vs EMOTION Other
+GENUINE INTER Sad vs Other 
+ Mean Score: nan A: nan  V: nan D: nan 
+ Max Score: N/A A: N/A  V: N/A D: N/A 
+ Min Score: N/A A: N/A  V: N/A D: N/A 
+
+----------------------------------------------------------------------
+EMOTION  Sad vs EMOTION No Agreement
+GENUINE INTER Sad vs No Agreement 
+ Mean Score: 0.4803299003846153 A: 3.3362179423076928  V: 3.3358974423076924 D: 3.7538461538461534 
+ Max Score: 0.9055687 A: 2.7  V: 3.2 D: 3.1 
+ Min Score: 0.1018353 A: 4.3  V: 4.1 D: 4.699999999999999 
+
+----------------------------------------------------------------------
+EMOTION  Happy vs EMOTION Surprise
+GENUINE INTER Happy vs Surprise 
+ Mean Score: 0.407291838974359 A: 4.935650884615384  V: 4.592094025641025 D: 4.83596317948718 
+ Max Score: 0.8640984 A: 5.1384615  V: 4.9846155 D: 5.1 
+ Min Score: -0.24712212 A: 4.4  V: 4.2 D: 4.4 
+
+----------------------------------------------------------------------
+EMOTION  Happy vs EMOTION Fear
+GENUINE INTER Happy vs Fear 
+ Mean Score: 0.5077813191666667 A: 4.5611110833333335  V: 4.7 D: 4.825 
+ Max Score: 0.84912246 A: 5.45  V: 4.0 D: 5.6166665 
+ Min Score: -0.07197501 A: 3.8  V: 5.6 D: 4.800000000000001 
+
+----------------------------------------------------------------------
+EMOTION  Happy vs EMOTION Disgust
+GENUINE INTER Happy vs Disgust 
+ Mean Score: 0.46933088888888885 A: 4.896296222222222  V: 4.496296277777779 D: 4.857407444444444 
+ Max Score: 0.9009491 A: 5.0666665  V: 4.7666664999999995 D: 5.4833335000000005 
+ Min Score: 0.16279176 A: 4.9  V: 4.5 D: 4.699999999999999 
+
+----------------------------------------------------------------------
+EMOTION  Happy vs EMOTION Contempt
+GENUINE INTER Happy vs Contempt 
+ Mean Score: 0.5098696544999999 A: 4.4794318  V: 4.295018937500001 D: 4.740170450000001 
+ Max Score: 0.91096735 A: 4.0  V: 4.5 D: 4.5 
+ Min Score: -0.07200146 A: 4.55  V: 4.65 D: 4.55 
+
+----------------------------------------------------------------------
+EMOTION  Happy vs EMOTION Neutral
+GENUINE INTER Happy vs Neutral 
+ Mean Score: 0.4805891919567281 A: 4.465290052770447  V: 4.473464529023747 D: 4.4882328205804765 
+ Max Score: 0.9559218 A: 4.625  V: 3.9583335 D: 4.0833335 
+ Min Score: -0.27993086 A: 4.4  V: 4.4 D: 4.4 
+
+----------------------------------------------------------------------
+EMOTION  Happy vs EMOTION Other
+GENUINE INTER Happy vs Other 
+ Mean Score: 0.2922782801428571 A: 4.925  V: 4.561904785714286 D: 5.004761928571428 
+ Max Score: 0.79459 A: 4.3583335000000005  V: 4.2833335 D: 4.4416665 
+ Min Score: -0.24644612 A: 5.1  V: 3.8 D: 4.9 
+
+----------------------------------------------------------------------
+EMOTION  Happy vs EMOTION No Agreement
+GENUINE INTER Happy vs No Agreement 
+ Mean Score: 0.40215301318359387 A: 4.6816141484374985  V: 4.575768734375001 D: 4.866488878906251 
+ Max Score: 0.8995609 A: 5.25  V: 5.3333335 D: 5.3125 
+ Min Score: -0.24861503 A: 5.0  V: 4.5 D: 5.6 
+
+----------------------------------------------------------------------
+EMOTION  Surprise vs EMOTION Fear
+GENUINE INTER Surprise vs Fear 
+ Mean Score: 0.363265475 A: 5.05  V: 4.449999999999999 D: 5.2 
+ Max Score: 0.3739926 A: 5.1  V: 4.5 D: 5.300000000000001 
+ Min Score: 0.35253835 A: 5.0  V: 4.4 D: 5.1 
+
+----------------------------------------------------------------------
+EMOTION  Surprise vs EMOTION Disgust
+GENUINE INTER Surprise vs Disgust 
+ Mean Score: 0.7614597 A: 4.9  V: 4.300000000000001 D: 5.5 
+ Max Score: 0.7614597 A: 4.9  V: 4.300000000000001 D: 5.5 
+ Min Score: 0.7614597 A: 4.9  V: 4.300000000000001 D: 5.5 
+
+----------------------------------------------------------------------
+EMOTION  Surprise vs EMOTION Contempt
+GENUINE INTER Surprise vs Contempt 
+ Mean Score: 0.7033323499999999 A: 4.7083335  V: 4.009091 D: 5.14772725 
+ Max Score: 0.8642017 A: 4.416667  V: 3.5 D: 4.75 
+ Min Score: 0.542463 A: 5.0  V: 4.518182 D: 5.5454545 
+
+----------------------------------------------------------------------
+EMOTION  Surprise vs EMOTION Neutral
+GENUINE INTER Surprise vs Neutral 
+ Mean Score: 0.5539909769599999 A: 4.292888893333334  V: 4.166333333333334 D: 4.36122222 
+ Max Score: 0.9252654 A: 3.3  V: 3.1 D: 4.1 
+ Min Score: -0.13319105 A: 4.3833335  V: 5.0666665 D: 4.7 
+
+----------------------------------------------------------------------
+EMOTION  Surprise vs EMOTION Other
+GENUINE INTER Surprise vs Other 
+ Mean Score: nan A: nan  V: nan D: nan 
+ Max Score: N/A A: N/A  V: N/A D: N/A 
+ Min Score: N/A A: N/A  V: N/A D: N/A 
+
+----------------------------------------------------------------------
+EMOTION  Surprise vs EMOTION No Agreement
+GENUINE INTER Surprise vs No Agreement 
+ Mean Score: 0.4374969595806451 A: 4.644821725806452  V: 4.387180370967743 D: 4.721749758064517 
+ Max Score: 0.8856574 A: 4.025  V: 3.9166665 D: 4.3083335 
+ Min Score: -0.06575325 A: 4.1  V: 4.6 D: 4.5 
+
+----------------------------------------------------------------------
+EMOTION  Fear vs EMOTION Disgust
+GENUINE INTER Fear vs Disgust 
+ Mean Score: 0.329753 A: 4.90416675  V: 3.95 D: 4.862500000000001 
+ Max Score: 0.33687282 A: 4.9083335  V: 3.8 D: 4.725 
+ Min Score: 0.32263318 A: 4.9  V: 4.1 D: 5.0 
+
+----------------------------------------------------------------------
+EMOTION  Fear vs EMOTION Contempt
+GENUINE INTER Fear vs Contempt 
+ Mean Score: 0.011745264999999998 A: 4.25  V: 3.9 D: 4.15 
+ Max Score: 0.06485395 A: 5.1  V: 4.9 D: 4.9 
+ Min Score: -0.04136342 A: 3.4  V: 2.9 D: 3.4 
+
+----------------------------------------------------------------------
+EMOTION  Fear vs EMOTION Neutral
+GENUINE INTER Fear vs Neutral 
+ Mean Score: 0.5167899655 A: 4.39705880882353  V: 3.9642156764705883 D: 4.225 
+ Max Score: 0.90018 A: 4.5  V: 4.2 D: 4.1 
+ Min Score: -0.24523109 A: 4.2  V: 4.3 D: 4.2 
+
+----------------------------------------------------------------------
+EMOTION  Fear vs EMOTION Other
+GENUINE INTER Fear vs Other 
+ Mean Score: nan A: nan  V: nan D: nan 
+ Max Score: N/A A: N/A  V: N/A D: N/A 
+ Min Score: N/A A: N/A  V: N/A D: N/A 
+
+----------------------------------------------------------------------
+EMOTION  Fear vs EMOTION No Agreement
+GENUINE INTER Fear vs No Agreement 
+ Mean Score: 0.5422468811111112 A: 4.65  V: 4.058333388888888 D: 4.462962944444444 
+ Max Score: 0.780076 A: 4.5  V: 5.0 D: 5.0 
+ Min Score: 0.22829679 A: 4.3666665  V: 4.2833335 D: 4.4333335 
+
+----------------------------------------------------------------------
+EMOTION  Disgust vs EMOTION Contempt
+GENUINE INTER Disgust vs Contempt 
+ Mean Score: -0.095670745 A: 4.5  V: 3.8 D: 4.9 
+ Max Score: -0.095670745 A: 4.5  V: 3.8 D: 4.9 
+ Min Score: -0.095670745 A: 4.5  V: 3.8 D: 4.9 
+
+----------------------------------------------------------------------
+EMOTION  Disgust vs EMOTION Neutral
+GENUINE INTER Disgust vs Neutral 
+ Mean Score: 0.45932973102500013 A: 4.377580125  V: 4.1366826875000005 D: 4.5586057625 
+ Max Score: 0.8687981 A: 4.4615385  V: 4.2692309999999996 D: 4.5384615 
+ Min Score: -0.11098903 A: 3.6  V: 3.9 D: 4.7 
+
+----------------------------------------------------------------------
+EMOTION  Disgust vs EMOTION Other
+GENUINE INTER Disgust vs Other 
+ Mean Score: 0.04577475 A: 4.7  V: 3.8 D: 5.4 
+ Max Score: 0.04577475 A: 4.7  V: 3.8 D: 5.4 
+ Min Score: 0.04577475 A: 4.7  V: 3.8 D: 5.4 
+
+----------------------------------------------------------------------
+EMOTION  Disgust vs EMOTION No Agreement
+GENUINE INTER Disgust vs No Agreement 
+ Mean Score: 0.492202325 A: 4.602884625  V: 3.6589743749999997 D: 4.64294875 
+ Max Score: 0.7574364 A: 4.7  V: 3.9 D: 4.9 
+ Min Score: 0.31895882 A: 4.7115385  V: 4.435897499999999 D: 4.371795 
+
+----------------------------------------------------------------------
+EMOTION  Contempt vs EMOTION Neutral
+GENUINE INTER Contempt vs Neutral 
+ Mean Score: 0.48571037113636384 A: 3.508266313636363  V: 3.2827622363636357 D: 3.671407354545455 
+ Max Score: 0.9010271 A: 3.2  V: 2.7 D: 2.6 
+ Min Score: -0.25945383 A: 4.8  V: 4.8 D: 4.4 
+
+----------------------------------------------------------------------
+EMOTION  Contempt vs EMOTION Other
+GENUINE INTER Contempt vs Other 
+ Mean Score: nan A: nan  V: nan D: nan 
+ Max Score: N/A A: N/A  V: N/A D: N/A 
+ Min Score: N/A A: N/A  V: N/A D: N/A 
+
+----------------------------------------------------------------------
+EMOTION  Contempt vs EMOTION No Agreement
+GENUINE INTER Contempt vs No Agreement 
+ Mean Score: 0.4182770003055556 A: 3.8385747500000003  V: 3.663475527777778 D: 4.111160708333333 
+ Max Score: 0.90350497 A: 4.4  V: 4.3 D: 4.9 
+ Min Score: -0.067809455 A: 3.4  V: 3.6 D: 3.9000000000000004 
+
+----------------------------------------------------------------------
+EMOTION  Neutral vs EMOTION Other
+GENUINE INTER Neutral vs Other 
+ Mean Score: 0.5291002093333333 A: 4.343055583333333  V: 4.316666666666666 D: 4.411111083333333 
+ Max Score: 0.74891716 A: 3.6  V: 4.3 D: 3.7 
+ Min Score: 0.100730956 A: 4.1  V: 4.0 D: 4.3 
+
+----------------------------------------------------------------------
+EMOTION  Neutral vs EMOTION No Agreement
+GENUINE INTER Neutral vs No Agreement 
+ Mean Score: 0.5013444879032256 A: 4.208170861042181  V: 4.087084619106702 D: 4.300004887096774 
+ Max Score: 0.9353308 A: 4.199999999999999  V: 4.6 D: 4.1 
+ Min Score: -0.3049479 A: 3.4  V: 3.9000000000000004 D: 3.7 
+
+----------------------------------------------------------------------
+EMOTION  Other vs EMOTION No Agreement
+GENUINE INTER Other vs No Agreement 
+ Mean Score: 0.648467968 A: 4.867500000000001  V: 4.410833350000001 D: 4.9175 
+ Max Score: 0.9213352 A: 4.7416665  V: 4.4083335 D: 4.8166665 
+ Min Score: 0.09518941 A: 4.9  V: 3.95 D: 4.7833335 
+
+----------------------------------------------------------------------
+EMOTION  Angry
+IMPOSTOR INTRA Angry 
+ Mean Score: 0.05596795503582089 A: 5.489293925373133  V: 3.0027171865671645 D: 5.330089925373134 
+ Max Score: 0.55296963 A: 5.5  V: 2.8 D: 5.7 
+ Min Score: -0.36582208 A: 4.3  V: 2.8 D: 4.300000000000001 
+
+----------------------------------------------------------------------
+EMOTION  Sad
+IMPOSTOR INTRA Sad 
+ Mean Score: 0.08793965918241758 A: 3.3536630054945054  V: 2.870146527472528 D: 3.539377285714286 
+ Max Score: 0.66016126 A: 3.8  V: 3.0 D: 3.7 
+ Min Score: -0.420446 A: 3.9666664999999997  V: 3.7333334999999996 D: 3.8 
+
+----------------------------------------------------------------------
+EMOTION  Happy
+IMPOSTOR INTRA Happy 
+ Mean Score: 0.027285183305016534 A: 4.808865456870336  V: 4.869729345175557 D: 4.889852238733747 
+ Max Score: 0.8078165 A: 5.2166665  V: 4.9166665 D: 4.825 
+ Min Score: -0.5476041 A: 4.9083335  V: 5.1166665 D: 5.0833335 
+
+----------------------------------------------------------------------
+EMOTION  Surprise
+IMPOSTOR INTRA Surprise 
+ Mean Score: 0.00537078676533149 A: 4.777418245856351  V: 4.410725149171272 D: 4.831759914364641 
+ Max Score: 0.6814166 A: 5.2083335  V: 4.4583335 D: 5.25 
+ Min Score: -0.40771675 A: 5.300000000000001  V: 4.8 D: 5.3 
+
+----------------------------------------------------------------------
+EMOTION  Fear
+IMPOSTOR INTRA Fear 
+ Mean Score: -0.02789544977391305 A: 4.717865108695651  V: 4.046070239130435 D: 4.544537347826087 
+ Max Score: 0.65551233 A: 5.0916665  V: 4.175 D: 4.9 
+ Min Score: -0.21355663 A: 5.3  V: 4.0 D: 4.5 
+
+----------------------------------------------------------------------
+EMOTION  Disgust
+IMPOSTOR INTRA Disgust 
+ Mean Score: -0.00785003618181818 A: 4.3037878863636365  V: 3.675378795454545 D: 4.592045454545454 
+ Max Score: 0.35765165 A: 4.4  V: 3.2 D: 4.199999999999999 
+ Min Score: -0.2788629 A: 5.0  V: 4.0 D: 5.3 
+
+----------------------------------------------------------------------
+EMOTION  Contempt
+IMPOSTOR INTRA Contempt 
+ Mean Score: 0.025470404659055118 A: 4.2359995196850395  V: 3.672888582677166 D: 4.453231740157483 
+ Max Score: 0.6184223 A: 3.1  V: 2.7 D: 3.1 
+ Min Score: -0.45055628 A: 4.6583335  V: 3.6 D: 4.9833335000000005 
+
+----------------------------------------------------------------------
+EMOTION  Neutral
+IMPOSTOR INTRA Neutral 
+ Mean Score: 0.041078518363626144 A: 4.0334478821847854  V: 4.063596728918069 D: 4.158148204405375 
+ Max Score: 0.9481737 A: 3.9000000000000004  V: 4.4 D: 4.5 
+ Min Score: -0.59554887 A: 4.8  V: 4.2 D: 4.4 
+
+----------------------------------------------------------------------
+EMOTION  Other
+IMPOSTOR INTRA Other 
+ Mean Score: -0.01567003125 A: 4.387499999999999  V: 4.4375 D: 4.637499999999999 
+ Max Score: 0.058021024 A: 4.5  V: 5.1 D: 4.8 
+ Min Score: -0.11678414 A: 4.3  V: 4.1 D: 4.6 
+
+----------------------------------------------------------------------
+EMOTION  No Agreement
+IMPOSTOR INTRA No Agreement 
+ Mean Score: 0.025488125432969404 A: 4.444588447249005  V: 4.253029109330691 D: 4.611824915910385 
+ Max Score: 0.82368743 A: 4.699999999999999  V: 4.3 D: 5.0 
+ Min Score: -0.5775678 A: 4.4  V: 4.3 D: 4.4 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION Sad
+IMPOSTOR INTER Angry vs Sad 
+ Mean Score: 0.017257698674712642 A: 4.734770120689655  V: 3.009795333333333 D: 4.826023379310346 
+ Max Score: 0.5349747 A: 4.9  V: 2.3 D: 4.7 
+ Min Score: -0.34235942 A: 5.4  V: 2.7 D: 5.199999999999999 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION Happy
+IMPOSTOR INTER Angry vs Happy 
+ Mean Score: 0.0159082907790762 A: 5.188227601088647  V: 3.835381181959566 D: 5.173585835925355 
+ Max Score: 0.8134899 A: 4.9  V: 3.5105265 D: 5.0473685 
+ Min Score: -0.421313 A: 5.1  V: 4.5 D: 4.8 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION Surprise
+IMPOSTOR INTER Angry vs Surprise 
+ Mean Score: -0.010135821882835823 A: 5.0850905783582085  V: 3.604242604477613 D: 5.045320018656718 
+ Max Score: 0.5986164 A: 6.0  V: 3.0 D: 5.4 
+ Min Score: -0.39874417 A: 5.800000000000001  V: 3.4000000000000004 D: 5.4 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION Fear
+IMPOSTOR INTER Angry vs Fear 
+ Mean Score: -0.011183191455555552 A: 5.194686622222222  V: 3.3323969222222223 D: 5.051847355555557 
+ Max Score: 0.56141406 A: 5.6  V: 3.7 D: 5.4 
+ Min Score: -0.3961938 A: 5.4  V: 3.4 D: 5.1 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION Disgust
+IMPOSTOR INTER Angry vs Disgust 
+ Mean Score: 0.07608120776444445 A: 5.175308633333334  V: 3.0667284000000006 D: 5.271666644444445 
+ Max Score: 0.37299603 A: 5.7  V: 2.9000000000000004 D: 5.4 
+ Min Score: -0.45658946 A: 5.1  V: 2.4 D: 4.9 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION Contempt
+IMPOSTOR INTER Angry vs Contempt 
+ Mean Score: 0.029413995839603968 A: 5.137659118811882  V: 3.2934979900990093 D: 5.204280495049504 
+ Max Score: 0.6263447 A: 5.025  V: 4.15 D: 4.8416665 
+ Min Score: -0.4294653 A: 4.9  V: 2.5 D: 5.699999999999999 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION Neutral
+IMPOSTOR INTER Angry vs Neutral 
+ Mean Score: 0.012485973254716272 A: 4.904234325831696  V: 3.4684913140900187 D: 4.945007914383567 
+ Max Score: 0.8650534 A: 5.2916665  V: 3.5916664999999997 D: 5.2666664999999995 
+ Min Score: -0.4868356 A: 4.4  V: 3.2 D: 4.5 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION Other
+IMPOSTOR INTER Angry vs Other 
+ Mean Score: -0.035635851793103454 A: 4.911590034482758  V: 3.5504789310344833 D: 4.900574706896553 
+ Max Score: 0.4686331 A: 4.9  V: 3.3 D: 5.0 
+ Min Score: -0.4698946 A: 4.800000000000001  V: 3.5999999999999996 D: 5.199999999999999 
+
+----------------------------------------------------------------------
+EMOTION  Angry vs EMOTION No Agreement
+IMPOSTOR INTER Angry vs No Agreement 
+ Mean Score: 0.0048654535884069434 A: 5.003625791798107  V: 3.4615562744479544 D: 5.03418333438486 
+ Max Score: 0.6412133 A: 4.8  V: 4.4 D: 4.1 
+ Min Score: -0.5191364 A: 4.675  V: 4.475 D: 4.75 
+
+----------------------------------------------------------------------
+EMOTION  Sad vs EMOTION Happy
+IMPOSTOR INTER Sad vs Happy 
+ Mean Score: 0.04478080670836691 A: 3.8374537116834153  V: 3.704116554020098 D: 4.0433468592964905 
+ Max Score: 0.83698213 A: 4.0166664999999995  V: 3.7333335 D: 4.3083335 
+ Min Score: -0.53783596 A: 2.8  V: 3.4 D: 3.3 
+
+----------------------------------------------------------------------
+EMOTION  Sad vs EMOTION Surprise
+IMPOSTOR INTER Sad vs Surprise 
+ Mean Score: 0.0668794627875 A: 3.9010733906249992  V: 3.4960837265625004 D: 4.0460737213541655 
+ Max Score: 0.5269387 A: 5.2666664999999995  V: 4.6 D: 4.4916665 
+ Min Score: -0.48961943 A: 4.8  V: 4.1 D: 4.5 
+
+----------------------------------------------------------------------
+EMOTION  Sad vs EMOTION Fear
+IMPOSTOR INTER Sad vs Fear 
+ Mean Score: -0.001635970230303036 A: 3.80037878030303  V: 3.2814393939393933 D: 3.874242424242423 
+ Max Score: 0.48573864 A: 3.0  V: 2.3 D: 3.0 
+ Min Score: -0.42805827 A: 3.0  V: 2.4 D: 3.6 
+
+----------------------------------------------------------------------
+EMOTION  Sad vs EMOTION Disgust
+IMPOSTOR INTER Sad vs Disgust 
+ Mean Score: 0.04532869529999998 A: 3.869775633333332  V: 3.022681633333334 D: 4.089668800000001 
+ Max Score: 0.4547958 A: 4.800000000000001  V: 2.9000000000000004 D: 4.9 
+ Min Score: -0.4772609 A: 3.1  V: 2.1 D: 4.0 
+
+----------------------------------------------------------------------
+EMOTION  Sad vs EMOTION Contempt
+IMPOSTOR INTER Sad vs Contempt 
+ Mean Score: 0.0034452505992481133 A: 3.626533601503759  V: 3.174961214285714 D: 3.9127014060150382 
+ Max Score: 0.510184 A: 3.9  V: 2.7 D: 4.3 
+ Min Score: -0.40164495 A: 3.6  V: 3.2 D: 4.1 
+
+----------------------------------------------------------------------
+EMOTION  Sad vs EMOTION Neutral
+IMPOSTOR INTER Sad vs Neutral 
+ Mean Score: 0.050895003064251244 A: 3.392166766473564  V: 3.2631803997103535 D: 3.6371067313540997 
+ Max Score: 0.88202864 A: 4.8  V: 3.2 D: 5.1 
+ Min Score: -0.44336453 A: 3.4000000000000004  V: 3.8 D: 3.4000000000000004 
+
+----------------------------------------------------------------------
+EMOTION  Sad vs EMOTION Other
+IMPOSTOR INTER Sad vs Other 
+ Mean Score: 0.03501551734000001 A: 3.6066666666666665  V: 3.4288888888888884 D: 3.894444444444444 
+ Max Score: 0.56247026 A: 3.1  V: 2.3 D: 3.3 
+ Min Score: -0.24927491 A: 2.6  V: 3.2 D: 2.9 
+
+----------------------------------------------------------------------
+EMOTION  Sad vs EMOTION No Agreement
+IMPOSTOR INTER Sad vs No Agreement 
+ Mean Score: 0.02414731070643628 A: 3.6533014186991863  V: 3.3978440142276405 D: 3.894178836043362 
+ Max Score: 0.7816392 A: 2.6  V: 2.9 D: 3.8 
+ Min Score: -0.51335585 A: 4.314102500000001  V: 4.2564105 D: 4.865384499999999 
+
+----------------------------------------------------------------------
+EMOTION  Happy vs EMOTION Surprise
+IMPOSTOR INTER Happy vs Surprise 
+ Mean Score: 0.0002822197688812811 A: 4.801886719178086  V: 4.609471558789952 D: 4.872517586757995 
+ Max Score: 0.709886 A: 5.1  V: 4.5 D: 5.2 
+ Min Score: -0.6665231 A: 4.7  V: 4.9 D: 5.1 
+
+----------------------------------------------------------------------
+EMOTION  Happy vs EMOTION Fear
+IMPOSTOR INTER Happy vs Fear 
+ Mean Score: -0.010881798423507451 A: 4.779070356343283  V: 4.5114391847014925 D: 4.813240417910448 
+ Max Score: 0.7714058 A: 4.5  V: 4.0846155 D: 4.3615385 
+ Min Score: -0.53102034 A: 4.7166665  V: 4.8 D: 4.7333335000000005 
+
+----------------------------------------------------------------------
+EMOTION  Happy vs EMOTION Disgust
+IMPOSTOR INTER Happy vs Disgust 
+ Mean Score: 0.030920006637037045 A: 4.763288975308645  V: 4.127394915637856 D: 4.89193512345679 
+ Max Score: 0.695709 A: 4.9  V: 4.5 D: 5.2 
+ Min Score: -0.4929522 A: 4.9166665  V: 4.35 D: 5.2166665 
+
+----------------------------------------------------------------------
+EMOTION  Happy vs EMOTION Contempt
+IMPOSTOR INTER Happy vs Contempt 
+ Mean Score: 0.028819097895026645 A: 4.683855900532863  V: 4.409234590586145 D: 4.850638649200712 
+ Max Score: 0.6840111 A: 4.475  V: 4.05 D: 4.9083335 
+ Min Score: -0.5990733 A: 4.9  V: 4.6 D: 4.800000000000001 
+
+----------------------------------------------------------------------
+EMOTION  Happy vs EMOTION Neutral
+IMPOSTOR INTER Happy vs Neutral 
+ Mean Score: 0.03481411569498786 A: 4.512223131701866  V: 4.562259452269743 D: 4.661306010648217 
+ Max Score: 0.85348785 A: 4.375  V: 3.7916665 D: 3.9166665 
+ Min Score: -0.5821377 A: 4.8  V: 5.3 D: 5.3 
+
+----------------------------------------------------------------------
+EMOTION  Happy vs EMOTION Other
+IMPOSTOR INTER Happy vs Other 
+ Mean Score: 0.040401379858549226 A: 4.643664323834197  V: 4.649225510362694 D: 4.808084831606216 
+ Max Score: 0.8776013 A: 4.4916665  V: 4.95 D: 5.0 
+ Min Score: -0.48665434 A: 4.45  V: 5.0 D: 4.65 
+
+----------------------------------------------------------------------
+EMOTION  Happy vs EMOTION No Agreement
+IMPOSTOR INTER Happy vs No Agreement 
+ Mean Score: 0.02369050768871474 A: 4.653758656647387  V: 4.5551901776011565 D: 4.787092246387276 
+ Max Score: 0.8065666 A: 4.2  V: 4.2 D: 3.8000000000000003 
+ Min Score: -0.59136844 A: 4.9  V: 4.6 D: 5.1 
+
+----------------------------------------------------------------------
+EMOTION  Surprise vs EMOTION Fear
+IMPOSTOR INTER Surprise vs Fear 
+ Mean Score: -0.0305035758457143 A: 4.65031662857143  V: 4.229902157142858 D: 4.6818864571428565 
+ Max Score: 0.55323976 A: 4.3  V: 4.0 D: 4.4 
+ Min Score: -0.5379759 A: 4.2  V: 3.7 D: 4.4 
+
+----------------------------------------------------------------------
+EMOTION  Surprise vs EMOTION Disgust
+IMPOSTOR INTER Surprise vs Disgust 
+ Mean Score: 0.027044208176785715 A: 4.686607178571429  V: 3.8925251875000004 D: 4.774210160714285 
+ Max Score: 0.63052905 A: 5.6  V: 3.7 D: 5.2 
+ Min Score: -0.4951848 A: 5.5  V: 5.2 D: 5.800000000000001 
+
+----------------------------------------------------------------------
+EMOTION  Surprise vs EMOTION Contempt
+IMPOSTOR INTER Surprise vs Contempt 
+ Mean Score: 0.023538218267768602 A: 4.6055525785123965  V: 4.16551334710744 D: 4.753566421487604 
+ Max Score: 0.66284144 A: 4.6  V: 4.5 D: 4.6 
+ Min Score: -0.3978939 A: 4.5833335  V: 4.7333335000000005 D: 5.0 
+
+----------------------------------------------------------------------
+EMOTION  Surprise vs EMOTION Neutral
+IMPOSTOR INTER Surprise vs Neutral 
+ Mean Score: 0.025780820383248387 A: 4.456883548948224  V: 4.3012988466828475 D: 4.539892830097087 
+ Max Score: 0.8712864 A: 4.0833335  V: 4.3333335 D: 4.6 
+ Min Score: -0.53534573 A: 3.3  V: 3.9000000000000004 D: 3.6 
+
+----------------------------------------------------------------------
+EMOTION  Surprise vs EMOTION Other
+IMPOSTOR INTER Surprise vs Other 
+ Mean Score: 0.03878075156 A: 4.673270685714286  V: 4.2721303142857145 D: 4.752619057142857 
+ Max Score: 0.34190613 A: 5.2  V: 4.9 D: 5.4 
+ Min Score: -0.37183914 A: 5.0  V: 3.7 D: 4.8 
+
+----------------------------------------------------------------------
+EMOTION  Surprise vs EMOTION No Agreement
+IMPOSTOR INTER Surprise vs No Agreement 
+ Mean Score: 0.02486140694658944 A: 4.615848099099099  V: 4.326409964607466 D: 4.707805947876445 
+ Max Score: 0.8312335 A: 4.5  V: 4.6 D: 4.9 
+ Min Score: -0.48820633 A: 4.4  V: 4.3666665 D: 4.15 
+
+----------------------------------------------------------------------
+EMOTION  Fear vs EMOTION Disgust
+IMPOSTOR INTER Fear vs Disgust 
+ Mean Score: 0.030777563499999994 A: 4.639789357142858  V: 3.4918956071428573 D: 4.571199625 
+ Max Score: 0.52393126 A: 5.199999999999999  V: 3.7 D: 5.6 
+ Min Score: -0.33046436 A: 4.8166665  V: 4.15 D: 4.8166665 
+
+----------------------------------------------------------------------
+EMOTION  Fear vs EMOTION Contempt
+IMPOSTOR INTER Fear vs Contempt 
+ Mean Score: 0.03480444043181819 A: 4.701411068181818  V: 4.035202295454545 D: 4.777961613636363 
+ Max Score: 0.3954853 A: 5.1  V: 5.1 D: 5.3 
+ Min Score: -0.44164488 A: 3.9666664999999997  V: 4.6166665 D: 4.3833335 
+
+----------------------------------------------------------------------
+EMOTION  Fear vs EMOTION Neutral
+IMPOSTOR INTER Fear vs Neutral 
+ Mean Score: 0.05930212737420599 A: 4.420061324034334  V: 4.182777883047203 D: 4.463241251072962 
+ Max Score: 0.81663597 A: 5.3125  V: 5.575 D: 5.0375 
+ Min Score: -0.5145924 A: 4.6  V: 3.2 D: 4.0 
+
+----------------------------------------------------------------------
+EMOTION  Fear vs EMOTION Other
+IMPOSTOR INTER Fear vs Other 
+ Mean Score: 0.11096691348000001 A: 4.41666665  V: 4.415 D: 4.49333335 
+ Max Score: 0.5482049 A: 4.5  V: 4.8 D: 4.5 
+ Min Score: -0.25211295 A: 4.4  V: 4.199999999999999 D: 4.6 
+
+----------------------------------------------------------------------
+EMOTION  Fear vs EMOTION No Agreement
+IMPOSTOR INTER Fear vs No Agreement 
+ Mean Score: 0.0048738014673151775 A: 4.54464873151751  V: 4.2071421459143945 D: 4.588385651750973 
+ Max Score: 0.5295274 A: 4.9  V: 4.699999999999999 D: 5.1 
+ Min Score: -0.46850526 A: 4.1  V: 3.8 D: 4.4 
+
+----------------------------------------------------------------------
+EMOTION  Disgust vs EMOTION Contempt
+IMPOSTOR INTER Disgust vs Contempt 
+ Mean Score: 0.07003447415357145 A: 4.460891723214286  V: 3.652346616071428 D: 4.571983767857143 
+ Max Score: 0.5642597 A: 5.0  V: 4.7 D: 4.95 
+ Min Score: -0.33908117 A: 4.5  V: 3.1 D: 4.5 
+
+----------------------------------------------------------------------
+EMOTION  Disgust vs EMOTION Neutral
+IMPOSTOR INTER Disgust vs Neutral 
+ Mean Score: 0.027240248365437966 A: 4.35931384215328  V: 3.8915303932481717 D: 4.478115233576646 
+ Max Score: 0.68303704 A: 3.4  V: 2.8 D: 3.9 
+ Min Score: -0.5364239 A: 4.5666665  V: 4.3666665 D: 4.6833335 
+
+----------------------------------------------------------------------
+EMOTION  Disgust vs EMOTION Other
+IMPOSTOR INTER Disgust vs Other 
+ Mean Score: 0.06268134910833334 A: 4.422489333333333  V: 4.18076925 D: 4.713621791666666 
+ Max Score: 0.48374087 A: 3.7  V: 3.2 D: 4.5 
+ Min Score: -0.28883043 A: 4.7  V: 5.0 D: 4.800000000000001 
+
+----------------------------------------------------------------------
+EMOTION  Disgust vs EMOTION No Agreement
+IMPOSTOR INTER Disgust vs No Agreement 
+ Mean Score: 0.013994491510764328 A: 4.457530439490446  V: 3.916834652866242 D: 4.588310628980894 
+ Max Score: 0.787891 A: 4.7  V: 3.5 D: 4.9 
+ Min Score: -0.50441945 A: 4.6  V: 3.5999999999999996 D: 5.6 
+
+----------------------------------------------------------------------
+EMOTION  Contempt vs EMOTION Neutral
+IMPOSTOR INTER Contempt vs Neutral 
+ Mean Score: 0.03347906126001785 A: 4.001587268245338  V: 3.8034534538043494 D: 4.236301206133536 
+ Max Score: 0.8433161 A: 2.5  V: 2.5 D: 2.0 
+ Min Score: -0.5649369 A: 3.6  V: 3.1 D: 4.1 
+
+----------------------------------------------------------------------
+EMOTION  Contempt vs EMOTION Other
+IMPOSTOR INTER Contempt vs Other 
+ Mean Score: 0.03544832400000001 A: 4.174038461538461  V: 3.8638888846153847 D: 4.366559846153846 
+ Max Score: 0.48047936 A: 2.4  V: 2.7 D: 3.4 
+ Min Score: -0.4320256 A: 2.9  V: 3.2 D: 3.7 
+
+----------------------------------------------------------------------
+EMOTION  Contempt vs EMOTION No Agreement
+IMPOSTOR INTER Contempt vs No Agreement 
+ Mean Score: 0.008310256770108852 A: 4.234529125850341  V: 3.8375981911564603 D: 4.462136550340134 
+ Max Score: 0.7605563 A: 4.3  V: 4.2 D: 4.4 
+ Min Score: -0.5995703 A: 2.5  V: 2.0 D: 3.5 
+
+----------------------------------------------------------------------
+EMOTION  Neutral vs EMOTION Other
+IMPOSTOR INTER Neutral vs Other 
+ Mean Score: 0.02428416105632582 A: 4.233610279896013  V: 4.1441158639514715 D: 4.3685878388214885 
+ Max Score: 0.8699019 A: 3.8  V: 4.4 D: 4.3 
+ Min Score: -0.44399196 A: 3.6  V: 3.4 D: 3.5 
+
+----------------------------------------------------------------------
+EMOTION  Neutral vs EMOTION No Agreement
+IMPOSTOR INTER Neutral vs No Agreement 
+ Mean Score: 0.02773748379085493 A: 4.213047811104172  V: 4.090129295917459 D: 4.3340393995890665 
+ Max Score: 0.926347 A: 4.5  V: 4.5 D: 4.9 
+ Min Score: -0.55778295 A: 4.4  V: 4.1333335 D: 4.35 
+
+----------------------------------------------------------------------
+EMOTION  Other vs EMOTION No Agreement
+IMPOSTOR INTER Other vs No Agreement 
+ Mean Score: 0.045608789380073525 A: 4.530297882352944  V: 4.239111992647059 D: 4.679345783088236 
+ Max Score: 0.8405065 A: 3.9  V: 4.6 D: 4.199999999999999 
+ Min Score: -0.36559728 A: 4.9  V: 4.2166665 D: 5.0333335 
+
+----------------------------------------------------------------------
