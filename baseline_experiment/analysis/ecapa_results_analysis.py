@@ -109,9 +109,9 @@ gen = torch.Tensor(genuine_scores)
 imp = torch.Tensor(impostor_scores)
 
 # Get EER
-#print('Computing EER...')
-#val_eer, threshold_eer = EER(gen,imp)
-#print('EER:', val_eer, '. Threshold@', threshold_eer)
+print('Computing EER...')
+val_eer, threshold_eer = EER(gen,imp)
+print('EER:', val_eer, '. Threshold@', threshold_eer)
 
 # MINDCF params c_miss=1.0, c_fa=1.0, p_target=0.01
 print('Computing MinDCF...')

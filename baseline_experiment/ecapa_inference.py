@@ -9,6 +9,7 @@ classifier = EncoderClassifier.from_hparams(source="speechbrain/spkrec-ecapa-vox
 # this is a genuine match
 signal1, fs =torchaudio.load('/research/iprobe/datastore/datasets/speech/utd-msppodcast_v1.8/Audios/MSP-PODCAST_0014_0252.wav')
 signal2, fs =torchaudio.load('/research/iprobe/datastore/datasets/speech/utd-msppodcast_v1.8/Audios/MSP-PODCAST_0023_0001.wav')
+
 embed1 = classifier.encode_batch(signal1)[0][0]
 embed2 = classifier.encode_batch(signal2)[0][0]
 

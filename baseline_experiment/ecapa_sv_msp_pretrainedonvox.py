@@ -227,7 +227,7 @@ else:
         test2_set.set_index('FileName',inplace=True)
         
         speaker_embed_cache = {}
-
+        
         #print(split_arrays)
         try:
             for sample_a, sample_b in tqdm(combos):
