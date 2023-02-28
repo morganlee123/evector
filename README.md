@@ -16,3 +16,4 @@ Of course, you may have many questions about the code since it is vast and compl
 - TODO: I'll list the papers here
 - https://github.com/lawlict/ECAPA-TDNN
 - https://github.com/iPRoBe-lab/DeepTalk
+- https://speechbrain.github.io/
