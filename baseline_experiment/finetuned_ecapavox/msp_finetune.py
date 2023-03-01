@@ -140,23 +140,23 @@ class SpeakerBrain(sb.core.Brain):
         stage_stats = {"loss": stage_loss}
         if stage == sb.Stage.TRAIN:
             self.train_stats = stage_stats
-        else:
-            stage_stats["ErrorRate"] = self.error_metrics.summarize("average")
+        #else:
+        #    stage_stats["ErrorRate"] = self.error_metrics.summarize("average")
 
         # Perform end-of-iteration things, like annealing, logging, etc.
-        if stage == sb.Stage.VALID:
-            old_lr, new_lr = self.hparams.lr_annealing(epoch)
-            sb.nnet.schedulers.update_learning_rate(self.optimizer, new_lr)
+        #if stage == sb.Stage.VALID:
+        old_lr, new_lr = self.hparams.lr_annealing(epoch)
+        sb.nnet.schedulers.update_learning_rate(self.optimizer, new_lr)
 
-            self.hparams.train_logger.log_stats(
-                stats_meta={"epoch": epoch, "lr": old_lr},
-                train_stats=self.train_stats,
-                valid_stats=stage_stats,
-            )
-            self.checkpointer.save_and_keep_only(
-                meta={"ErrorRate": stage_stats["ErrorRate"]},
-                min_keys=["ErrorRate"],
-            )
+        self.hparams.train_logger.log_stats(
+            stats_meta={"epoch": epoch, "lr": old_lr},
+            train_stats=self.train_stats,
+            #valid_stats=stage_stats,
+        )
+        self.checkpointer.save_checkpoint(
+            meta={"loss": stage_loss}
+            #min_keys=["ErrorRate"],
+        )
 
 from hyperpyyaml import load_hyperpyyaml
 
@@ -204,5 +204,5 @@ speaker_brain.fit(
     speaker_brain.hparams.epoch_counter,
     dataset,
     train_loader_kwargs=hparams["dataloader_options"],
-    valid_loader_kwargs=hparams["dataloader_options"],
+    #valid_loader_kwargs=hparams["dataloader_options"],
 )

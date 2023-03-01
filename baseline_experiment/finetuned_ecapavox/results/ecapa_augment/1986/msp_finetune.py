@@ -204,5 +204,5 @@ speaker_brain.fit(
     speaker_brain.hparams.epoch_counter,
     dataset,
     train_loader_kwargs=hparams["dataloader_options"],
-    valid_loader_kwargs=hparams["dataloader_options"],
+    #valid_loader_kwargs=hparams["dataloader_options"],
 )

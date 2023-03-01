@@ -1,6 +1,6 @@
-2023-02-28 16:56:59,034 - speechbrain.core - INFO - Beginning experiment!
-2023-02-28 16:56:59,035 - speechbrain.core - INFO - Experiment folder: results/ecapa_augment/1986
-2023-02-28 16:57:00,488 - speechbrain.utils.superpowers - DEBUG - absl-py @ file:///opt/conda/conda-bld/absl-py_1639803114343/work
+2023-02-28 23:23:39,170 - speechbrain.core - INFO - Beginning experiment!
+2023-02-28 23:23:39,170 - speechbrain.core - INFO - Experiment folder: results/ecapa_augment/1986
+2023-02-28 23:23:40,752 - speechbrain.utils.superpowers - DEBUG - absl-py @ file:///opt/conda/conda-bld/absl-py_1639803114343/work
 aiohttp @ file:///tmp/build/80754af9/aiohttp_1637856904808/work
 aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
 ale-py==0.7.4
@@ -280,12 +280,220 @@ zope.event==4.5.0
 zope.interface==5.4.0
 
 
-2023-02-28 16:57:00,518 - speechbrain.utils.superpowers - DEBUG - 99d1216
+2023-02-28 23:23:40,788 - speechbrain.utils.superpowers - DEBUG - 48978d8
 
 
-2023-02-28 16:57:05,941 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
-2023-02-28 16:57:05,941 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
-2023-02-28 16:58:10,192 - speechbrain.core - ERROR - Exception:
+2023-02-28 23:23:40,890 - speechbrain.core - INFO - Info: ckpt_interval_minutes arg from hparam file is used
+2023-02-28 23:23:44,979 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2023-02-28 23:23:44,981 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2023-02-28 23:29:44,714 - speechbrain.utils.epoch_loop - INFO - Going into epoch 2
+2023-02-28 23:33:51,797 - speechbrain.utils.epoch_loop - INFO - Going into epoch 3
+2023-02-28 23:37:53,335 - speechbrain.utils.epoch_loop - INFO - Going into epoch 4
+2023-02-28 23:41:52,527 - speechbrain.utils.epoch_loop - INFO - Going into epoch 5
+2023-02-28 23:45:53,758 - speechbrain.utils.epoch_loop - INFO - Going into epoch 6
+2023-02-28 23:49:54,655 - speechbrain.utils.epoch_loop - INFO - Going into epoch 7
+2023-02-28 23:53:53,995 - speechbrain.utils.epoch_loop - INFO - Going into epoch 8
+2023-02-28 23:57:50,710 - speechbrain.utils.epoch_loop - INFO - Going into epoch 9
+2023-03-01 00:01:46,769 - speechbrain.utils.epoch_loop - INFO - Going into epoch 10
+2023-03-01 00:05:46,543 - speechbrain.utils.epoch_loop - INFO - Going into epoch 11
+2023-03-01 00:09:45,713 - speechbrain.utils.epoch_loop - INFO - Going into epoch 12
+2023-03-01 00:13:41,163 - speechbrain.utils.epoch_loop - INFO - Going into epoch 13
+2023-03-01 00:17:38,028 - speechbrain.utils.epoch_loop - INFO - Going into epoch 14
+2023-03-01 00:21:35,832 - speechbrain.utils.epoch_loop - INFO - Going into epoch 15
+2023-03-01 00:25:31,831 - speechbrain.utils.epoch_loop - INFO - Going into epoch 16
+2023-03-01 00:29:30,529 - speechbrain.utils.epoch_loop - INFO - Going into epoch 17
+2023-03-01 00:33:27,450 - speechbrain.utils.epoch_loop - INFO - Going into epoch 18
+2023-03-01 00:37:22,345 - speechbrain.utils.epoch_loop - INFO - Going into epoch 19
+2023-03-01 00:41:21,411 - speechbrain.utils.epoch_loop - INFO - Going into epoch 20
+2023-03-01 00:45:18,661 - speechbrain.utils.epoch_loop - INFO - Going into epoch 21
+2023-03-01 00:49:14,976 - speechbrain.utils.epoch_loop - INFO - Going into epoch 22
+2023-03-01 00:53:14,949 - speechbrain.utils.epoch_loop - INFO - Going into epoch 23
+2023-03-01 00:57:12,288 - speechbrain.utils.epoch_loop - INFO - Going into epoch 24
+2023-03-01 01:01:11,145 - speechbrain.utils.epoch_loop - INFO - Going into epoch 25
+2023-03-01 01:05:06,234 - speechbrain.utils.epoch_loop - INFO - Going into epoch 26
+2023-03-01 01:09:02,146 - speechbrain.utils.epoch_loop - INFO - Going into epoch 27
+2023-03-01 01:12:57,050 - speechbrain.utils.epoch_loop - INFO - Going into epoch 28
+2023-03-01 01:16:56,532 - speechbrain.utils.epoch_loop - INFO - Going into epoch 29
+2023-03-01 01:20:52,228 - speechbrain.utils.epoch_loop - INFO - Going into epoch 30
+2023-03-01 01:24:47,931 - speechbrain.utils.epoch_loop - INFO - Going into epoch 31
+2023-03-01 01:28:45,652 - speechbrain.utils.epoch_loop - INFO - Going into epoch 32
+2023-03-01 01:32:43,064 - speechbrain.utils.epoch_loop - INFO - Going into epoch 33
+2023-03-01 01:36:38,961 - speechbrain.utils.epoch_loop - INFO - Going into epoch 34
+2023-03-01 01:40:35,150 - speechbrain.utils.epoch_loop - INFO - Going into epoch 35
+2023-03-01 01:44:31,013 - speechbrain.utils.epoch_loop - INFO - Going into epoch 36
+2023-03-01 01:48:30,292 - speechbrain.utils.epoch_loop - INFO - Going into epoch 37
+2023-03-01 01:52:26,048 - speechbrain.utils.epoch_loop - INFO - Going into epoch 38
+2023-03-01 01:56:22,977 - speechbrain.utils.epoch_loop - INFO - Going into epoch 39
+2023-03-01 02:00:18,500 - speechbrain.utils.epoch_loop - INFO - Going into epoch 40
+2023-03-01 02:04:15,974 - speechbrain.utils.epoch_loop - INFO - Going into epoch 41
+2023-03-01 02:08:10,663 - speechbrain.utils.epoch_loop - INFO - Going into epoch 42
+2023-03-01 02:12:06,605 - speechbrain.utils.epoch_loop - INFO - Going into epoch 43
+2023-03-01 02:16:01,692 - speechbrain.utils.epoch_loop - INFO - Going into epoch 44
+2023-03-01 02:19:57,041 - speechbrain.utils.epoch_loop - INFO - Going into epoch 45
+2023-03-01 02:23:56,240 - speechbrain.utils.epoch_loop - INFO - Going into epoch 46
+2023-03-01 02:27:52,698 - speechbrain.utils.epoch_loop - INFO - Going into epoch 47
+2023-03-01 02:31:51,389 - speechbrain.utils.epoch_loop - INFO - Going into epoch 48
+2023-03-01 02:35:48,871 - speechbrain.utils.epoch_loop - INFO - Going into epoch 49
+2023-03-01 02:39:46,125 - speechbrain.utils.epoch_loop - INFO - Going into epoch 50
+2023-03-01 02:43:41,099 - speechbrain.utils.epoch_loop - INFO - Going into epoch 51
+2023-03-01 02:47:35,936 - speechbrain.utils.epoch_loop - INFO - Going into epoch 52
+2023-03-01 02:51:31,487 - speechbrain.utils.epoch_loop - INFO - Going into epoch 53
+2023-03-01 02:55:26,785 - speechbrain.utils.epoch_loop - INFO - Going into epoch 54
+2023-03-01 02:59:22,564 - speechbrain.utils.epoch_loop - INFO - Going into epoch 55
+2023-03-01 03:03:20,947 - speechbrain.utils.epoch_loop - INFO - Going into epoch 56
+2023-03-01 03:07:16,451 - speechbrain.utils.epoch_loop - INFO - Going into epoch 57
+2023-03-01 03:11:13,422 - speechbrain.utils.epoch_loop - INFO - Going into epoch 58
+2023-03-01 03:15:09,085 - speechbrain.utils.epoch_loop - INFO - Going into epoch 59
+2023-03-01 03:19:02,783 - speechbrain.utils.epoch_loop - INFO - Going into epoch 60
+2023-03-01 03:23:01,319 - speechbrain.utils.epoch_loop - INFO - Going into epoch 61
+2023-03-01 03:27:00,823 - speechbrain.utils.epoch_loop - INFO - Going into epoch 62
+2023-03-01 03:30:57,187 - speechbrain.utils.epoch_loop - INFO - Going into epoch 63
+2023-03-01 03:34:53,091 - speechbrain.utils.epoch_loop - INFO - Going into epoch 64
+2023-03-01 03:38:52,462 - speechbrain.utils.epoch_loop - INFO - Going into epoch 65
+2023-03-01 03:42:47,740 - speechbrain.utils.epoch_loop - INFO - Going into epoch 66
+2023-03-01 03:46:44,398 - speechbrain.utils.epoch_loop - INFO - Going into epoch 67
+2023-03-01 03:50:39,112 - speechbrain.utils.epoch_loop - INFO - Going into epoch 68
+2023-03-01 03:54:38,141 - speechbrain.utils.epoch_loop - INFO - Going into epoch 69
+2023-03-01 03:58:34,182 - speechbrain.utils.epoch_loop - INFO - Going into epoch 70
+2023-03-01 04:02:31,723 - speechbrain.utils.epoch_loop - INFO - Going into epoch 71
+2023-03-01 04:06:30,970 - speechbrain.utils.epoch_loop - INFO - Going into epoch 72
+2023-03-01 04:10:28,478 - speechbrain.utils.epoch_loop - INFO - Going into epoch 73
+2023-03-01 04:14:25,664 - speechbrain.utils.epoch_loop - INFO - Going into epoch 74
+2023-03-01 04:18:20,942 - speechbrain.utils.epoch_loop - INFO - Going into epoch 75
+2023-03-01 04:22:16,465 - speechbrain.utils.epoch_loop - INFO - Going into epoch 76
+2023-03-01 04:26:10,990 - speechbrain.utils.epoch_loop - INFO - Going into epoch 77
+2023-03-01 04:30:05,951 - speechbrain.utils.epoch_loop - INFO - Going into epoch 78
+2023-03-01 04:34:00,325 - speechbrain.utils.epoch_loop - INFO - Going into epoch 79
+2023-03-01 04:37:55,129 - speechbrain.utils.epoch_loop - INFO - Going into epoch 80
+2023-03-01 04:41:53,351 - speechbrain.utils.epoch_loop - INFO - Going into epoch 81
+2023-03-01 04:45:50,162 - speechbrain.utils.epoch_loop - INFO - Going into epoch 82
+2023-03-01 04:49:44,996 - speechbrain.utils.epoch_loop - INFO - Going into epoch 83
+2023-03-01 04:53:39,608 - speechbrain.utils.epoch_loop - INFO - Going into epoch 84
+2023-03-01 04:57:34,546 - speechbrain.utils.epoch_loop - INFO - Going into epoch 85
+2023-03-01 05:01:28,914 - speechbrain.utils.epoch_loop - INFO - Going into epoch 86
+2023-03-01 05:05:23,443 - speechbrain.utils.epoch_loop - INFO - Going into epoch 87
+2023-03-01 05:09:21,904 - speechbrain.utils.epoch_loop - INFO - Going into epoch 88
+2023-03-01 05:13:17,109 - speechbrain.utils.epoch_loop - INFO - Going into epoch 89
+2023-03-01 05:17:13,489 - speechbrain.utils.epoch_loop - INFO - Going into epoch 90
+2023-03-01 05:21:07,623 - speechbrain.utils.epoch_loop - INFO - Going into epoch 91
+2023-03-01 05:25:02,536 - speechbrain.utils.epoch_loop - INFO - Going into epoch 92
+2023-03-01 05:28:57,168 - speechbrain.utils.epoch_loop - INFO - Going into epoch 93
+2023-03-01 05:32:52,128 - speechbrain.utils.epoch_loop - INFO - Going into epoch 94
+2023-03-01 05:36:48,935 - speechbrain.utils.epoch_loop - INFO - Going into epoch 95
+2023-03-01 05:40:44,338 - speechbrain.utils.epoch_loop - INFO - Going into epoch 96
+2023-03-01 05:44:39,448 - speechbrain.utils.epoch_loop - INFO - Going into epoch 97
+2023-03-01 05:48:36,689 - speechbrain.utils.epoch_loop - INFO - Going into epoch 98
+2023-03-01 05:52:34,738 - speechbrain.utils.epoch_loop - INFO - Going into epoch 99
+2023-03-01 05:56:30,229 - speechbrain.utils.epoch_loop - INFO - Going into epoch 100
+2023-03-01 06:00:25,835 - speechbrain.utils.epoch_loop - INFO - Going into epoch 101
+2023-03-01 06:04:24,781 - speechbrain.utils.epoch_loop - INFO - Going into epoch 102
+2023-03-01 06:08:20,579 - speechbrain.utils.epoch_loop - INFO - Going into epoch 103
+2023-03-01 06:12:16,355 - speechbrain.utils.epoch_loop - INFO - Going into epoch 104
+2023-03-01 06:16:12,192 - speechbrain.utils.epoch_loop - INFO - Going into epoch 105
+2023-03-01 06:20:07,000 - speechbrain.utils.epoch_loop - INFO - Going into epoch 106
+2023-03-01 06:24:01,445 - speechbrain.utils.epoch_loop - INFO - Going into epoch 107
+2023-03-01 06:27:55,350 - speechbrain.utils.epoch_loop - INFO - Going into epoch 108
+2023-03-01 06:31:49,773 - speechbrain.utils.epoch_loop - INFO - Going into epoch 109
+2023-03-01 06:35:46,308 - speechbrain.utils.epoch_loop - INFO - Going into epoch 110
+2023-03-01 06:39:42,089 - speechbrain.utils.epoch_loop - INFO - Going into epoch 111
+2023-03-01 06:43:37,850 - speechbrain.utils.epoch_loop - INFO - Going into epoch 112
+2023-03-01 06:47:34,804 - speechbrain.utils.epoch_loop - INFO - Going into epoch 113
+2023-03-01 06:51:30,336 - speechbrain.utils.epoch_loop - INFO - Going into epoch 114
+2023-03-01 06:55:27,411 - speechbrain.utils.epoch_loop - INFO - Going into epoch 115
+2023-03-01 06:59:22,664 - speechbrain.utils.epoch_loop - INFO - Going into epoch 116
+2023-03-01 07:03:17,678 - speechbrain.utils.epoch_loop - INFO - Going into epoch 117
+2023-03-01 07:07:12,482 - speechbrain.utils.epoch_loop - INFO - Going into epoch 118
+2023-03-01 07:11:08,243 - speechbrain.utils.epoch_loop - INFO - Going into epoch 119
+2023-03-01 07:15:03,496 - speechbrain.utils.epoch_loop - INFO - Going into epoch 120
+2023-03-01 07:18:58,227 - speechbrain.utils.epoch_loop - INFO - Going into epoch 121
+2023-03-01 07:22:56,440 - speechbrain.utils.epoch_loop - INFO - Going into epoch 122
+2023-03-01 07:26:51,319 - speechbrain.utils.epoch_loop - INFO - Going into epoch 123
+2023-03-01 07:30:45,827 - speechbrain.utils.epoch_loop - INFO - Going into epoch 124
+2023-03-01 07:34:39,996 - speechbrain.utils.epoch_loop - INFO - Going into epoch 125
+2023-03-01 07:38:34,466 - speechbrain.utils.epoch_loop - INFO - Going into epoch 126
+2023-03-01 07:42:28,812 - speechbrain.utils.epoch_loop - INFO - Going into epoch 127
+2023-03-01 07:46:23,231 - speechbrain.utils.epoch_loop - INFO - Going into epoch 128
+2023-03-01 07:50:17,486 - speechbrain.utils.epoch_loop - INFO - Going into epoch 129
+2023-03-01 07:54:11,832 - speechbrain.utils.epoch_loop - INFO - Going into epoch 130
+2023-03-01 07:58:08,002 - speechbrain.utils.epoch_loop - INFO - Going into epoch 131
+2023-03-01 08:02:02,520 - speechbrain.utils.epoch_loop - INFO - Going into epoch 132
+2023-03-01 08:05:57,194 - speechbrain.utils.epoch_loop - INFO - Going into epoch 133
+2023-03-01 08:09:55,451 - speechbrain.utils.epoch_loop - INFO - Going into epoch 134
+2023-03-01 08:13:54,048 - speechbrain.utils.epoch_loop - INFO - Going into epoch 135
+2023-03-01 08:17:52,227 - speechbrain.utils.epoch_loop - INFO - Going into epoch 136
+2023-03-01 08:21:47,571 - speechbrain.utils.epoch_loop - INFO - Going into epoch 137
+2023-03-01 08:25:42,860 - speechbrain.utils.epoch_loop - INFO - Going into epoch 138
+2023-03-01 08:29:38,088 - speechbrain.utils.epoch_loop - INFO - Going into epoch 139
+2023-03-01 08:33:31,607 - speechbrain.utils.epoch_loop - INFO - Going into epoch 140
+2023-03-01 08:37:26,699 - speechbrain.utils.epoch_loop - INFO - Going into epoch 141
+2023-03-01 08:41:21,515 - speechbrain.utils.epoch_loop - INFO - Going into epoch 142
+2023-03-01 08:45:16,510 - speechbrain.utils.epoch_loop - INFO - Going into epoch 143
+2023-03-01 08:49:10,069 - speechbrain.utils.epoch_loop - INFO - Going into epoch 144
+2023-03-01 08:53:06,336 - speechbrain.utils.epoch_loop - INFO - Going into epoch 145
+2023-03-01 08:57:00,977 - speechbrain.utils.epoch_loop - INFO - Going into epoch 146
+2023-03-01 09:00:56,134 - speechbrain.utils.epoch_loop - INFO - Going into epoch 147
+2023-03-01 09:04:54,246 - speechbrain.utils.epoch_loop - INFO - Going into epoch 148
+2023-03-01 09:08:50,046 - speechbrain.utils.epoch_loop - INFO - Going into epoch 149
+2023-03-01 09:12:45,579 - speechbrain.utils.epoch_loop - INFO - Going into epoch 150
+2023-03-01 09:16:40,997 - speechbrain.utils.epoch_loop - INFO - Going into epoch 151
+2023-03-01 09:20:36,075 - speechbrain.utils.epoch_loop - INFO - Going into epoch 152
+2023-03-01 09:24:34,267 - speechbrain.utils.epoch_loop - INFO - Going into epoch 153
+2023-03-01 09:28:30,214 - speechbrain.utils.epoch_loop - INFO - Going into epoch 154
+2023-03-01 09:32:26,005 - speechbrain.utils.epoch_loop - INFO - Going into epoch 155
+2023-03-01 09:36:23,933 - speechbrain.utils.epoch_loop - INFO - Going into epoch 156
+2023-03-01 09:40:22,561 - speechbrain.utils.epoch_loop - INFO - Going into epoch 157
+2023-03-01 09:44:20,768 - speechbrain.utils.epoch_loop - INFO - Going into epoch 158
+2023-03-01 09:48:17,416 - speechbrain.utils.epoch_loop - INFO - Going into epoch 159
+2023-03-01 09:52:13,832 - speechbrain.utils.epoch_loop - INFO - Going into epoch 160
+2023-03-01 09:56:09,572 - speechbrain.utils.epoch_loop - INFO - Going into epoch 161
+2023-03-01 10:00:05,155 - speechbrain.utils.epoch_loop - INFO - Going into epoch 162
+2023-03-01 10:03:59,967 - speechbrain.utils.epoch_loop - INFO - Going into epoch 163
+2023-03-01 10:07:56,232 - speechbrain.utils.epoch_loop - INFO - Going into epoch 164
+2023-03-01 10:11:51,704 - speechbrain.utils.epoch_loop - INFO - Going into epoch 165
+2023-03-01 10:15:46,903 - speechbrain.utils.epoch_loop - INFO - Going into epoch 166
+2023-03-01 10:19:41,722 - speechbrain.utils.epoch_loop - INFO - Going into epoch 167
+2023-03-01 10:23:37,756 - speechbrain.utils.epoch_loop - INFO - Going into epoch 168
+2023-03-01 10:27:36,202 - speechbrain.utils.epoch_loop - INFO - Going into epoch 169
+2023-03-01 10:31:31,633 - speechbrain.utils.epoch_loop - INFO - Going into epoch 170
+2023-03-01 10:35:27,180 - speechbrain.utils.epoch_loop - INFO - Going into epoch 171
+2023-03-01 10:39:21,203 - speechbrain.utils.epoch_loop - INFO - Going into epoch 172
+2023-03-01 10:43:16,494 - speechbrain.utils.epoch_loop - INFO - Going into epoch 173
+2023-03-01 10:47:13,425 - speechbrain.utils.epoch_loop - INFO - Going into epoch 174
+2023-03-01 10:51:08,003 - speechbrain.utils.epoch_loop - INFO - Going into epoch 175
+2023-03-01 10:55:05,070 - speechbrain.utils.epoch_loop - INFO - Going into epoch 176
+2023-03-01 10:59:04,010 - speechbrain.utils.epoch_loop - INFO - Going into epoch 177
+2023-03-01 11:03:01,401 - speechbrain.utils.epoch_loop - INFO - Going into epoch 178
+2023-03-01 11:06:56,914 - speechbrain.utils.epoch_loop - INFO - Going into epoch 179
+2023-03-01 11:10:55,253 - speechbrain.utils.epoch_loop - INFO - Going into epoch 180
+2023-03-01 11:14:50,135 - speechbrain.utils.epoch_loop - INFO - Going into epoch 181
+2023-03-01 11:18:45,481 - speechbrain.utils.epoch_loop - INFO - Going into epoch 182
+2023-03-01 11:22:40,817 - speechbrain.utils.epoch_loop - INFO - Going into epoch 183
+2023-03-01 11:26:36,626 - speechbrain.utils.epoch_loop - INFO - Going into epoch 184
+2023-03-01 11:30:32,910 - speechbrain.utils.epoch_loop - INFO - Going into epoch 185
+2023-03-01 11:34:27,668 - speechbrain.utils.epoch_loop - INFO - Going into epoch 186
+2023-03-01 11:38:22,687 - speechbrain.utils.epoch_loop - INFO - Going into epoch 187
+2023-03-01 11:42:21,957 - speechbrain.utils.epoch_loop - INFO - Going into epoch 188
+2023-03-01 11:46:17,564 - speechbrain.utils.epoch_loop - INFO - Going into epoch 189
+2023-03-01 11:50:13,562 - speechbrain.utils.epoch_loop - INFO - Going into epoch 190
+2023-03-01 11:54:13,165 - speechbrain.utils.epoch_loop - INFO - Going into epoch 191
+2023-03-01 11:58:10,276 - speechbrain.utils.epoch_loop - INFO - Going into epoch 192
+2023-03-01 12:02:06,884 - speechbrain.utils.epoch_loop - INFO - Going into epoch 193
+2023-03-01 12:06:03,951 - speechbrain.utils.epoch_loop - INFO - Going into epoch 194
+2023-03-01 12:10:00,376 - speechbrain.utils.epoch_loop - INFO - Going into epoch 195
+2023-03-01 12:13:56,992 - speechbrain.utils.epoch_loop - INFO - Going into epoch 196
+2023-03-01 12:17:53,683 - speechbrain.utils.epoch_loop - INFO - Going into epoch 197
+2023-03-01 12:21:49,998 - speechbrain.utils.epoch_loop - INFO - Going into epoch 198
+2023-03-01 12:25:46,704 - speechbrain.utils.epoch_loop - INFO - Going into epoch 199
+2023-03-01 12:29:43,540 - speechbrain.utils.epoch_loop - INFO - Going into epoch 200
+2023-03-01 12:33:40,573 - speechbrain.utils.epoch_loop - INFO - Going into epoch 201
+2023-03-01 12:37:38,842 - speechbrain.utils.epoch_loop - INFO - Going into epoch 202
+2023-03-01 12:41:36,889 - speechbrain.utils.epoch_loop - INFO - Going into epoch 203
+2023-03-01 12:45:34,389 - speechbrain.utils.epoch_loop - INFO - Going into epoch 204
+2023-03-01 12:49:32,153 - speechbrain.utils.epoch_loop - INFO - Going into epoch 205
+2023-03-01 12:53:29,741 - speechbrain.utils.epoch_loop - INFO - Going into epoch 206
+2023-03-01 12:57:28,074 - speechbrain.utils.epoch_loop - INFO - Going into epoch 207
+2023-03-01 13:01:24,086 - speechbrain.utils.epoch_loop - INFO - Going into epoch 208
+2023-03-01 13:03:17,298 - speechbrain.core - ERROR - Exception:
 Traceback (most recent call last):
   File "/research/iprobe-sandle20/Playground/evector/baseline_experiment/finetuned_ecapavox/msp_finetune.py", line 203, in <module>
     speaker_brain.fit(
@@ -293,1269 +501,8 @@ Traceback (most recent call last):
     self._fit_train(train_set=train_set, epoch=epoch, enable=enable)
   File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/core.py", line 1060, in _fit_train
     loss = self.fit_batch(batch)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/core.py", line 931, in fit_batch
-    outputs = self.compute_forward(batch, Stage.TRAIN)
-  File "/research/iprobe-sandle20/Playground/evector/baseline_experiment/finetuned_ecapavox/msp_finetune.py", line 90, in compute_forward
-    embeddings = self.modules.embedding_model(feats)
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/lobes/models/ECAPA_TDNN.py", line 498, in forward
-    x = self.asp(x, lengths=lengths)
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/lobes/models/ECAPA_TDNN.py", line 271, in forward
-    attn = self.conv(self.tanh(self.tdnn(attn)))
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/lobes/models/ECAPA_TDNN.py", line 81, in forward
-    return self.norm(self.activation(self.conv(x)))
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/nnet/CNN.py", line 422, in forward
-    x = self._manage_padding(
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/nnet/CNN.py", line 474, in _manage_padding
-    x = F.pad(x, padding, mode=self.padding_mode)
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/functional.py", line 4179, in _pad
-    return torch._C._nn.reflection_pad1d(input, pad)
-RuntimeError: CUDA out of memory. Tried to allocate 3.20 GiB (GPU 0; 10.76 GiB total capacity; 8.00 GiB already allocated; 1.52 GiB free; 8.07 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-2023-02-28 16:58:40,201 - speechbrain.core - INFO - Beginning experiment!
-2023-02-28 16:58:40,202 - speechbrain.core - INFO - Experiment folder: results/ecapa_augment/1986
-2023-02-28 16:58:41,673 - speechbrain.utils.superpowers - DEBUG - absl-py @ file:///opt/conda/conda-bld/absl-py_1639803114343/work
-aiohttp @ file:///tmp/build/80754af9/aiohttp_1637856904808/work
-aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
-ale-py==0.7.4
-appdirs==1.4.4
-argcomplete==2.0.0
-argon2-cffi==21.3.0
-argon2-cffi-bindings==21.2.0
-astor==0.8.1
-asttokens==2.0.8
-astunparse==1.6.3
-async-timeout @ file:///tmp/build/80754af9/async-timeout_1637851218186/work
-attrs @ file:///opt/conda/conda-bld/attrs_1642510447205/work
-audioread==3.0.0
-backcall==0.2.0
-beautifulsoup4==4.11.1
-black==19.10b0
-bleach==5.0.1
-blinker==1.4
-Bottleneck @ file:///tmp/build/80754af9/bottleneck_1607575130224/work
-brotlipy==0.7.0
-bz2file==0.98
-cachetools==5.0.0
-certifi==2021.10.8
-cffi @ file:///opt/conda/conda-bld/cffi_1642701102775/work
-cfgv==3.3.1
-charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
-chex==0.1.0
-ci-sdr==0.0.2
-click==8.0.4
-cloudpickle==2.0.0
-conda==4.11.0
-conda-package-handling @ file:///tmp/build/80754af9/conda-package-handling_1618262147379/work
-ConfigArgParse==1.5.3
-cryptography @ file:///tmp/build/80754af9/cryptography_1633520369886/work
-ctc-segmentation==1.7.4
-cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
-Cython==0.29.33
-debugpy==1.6.3
-decorator==5.1.1
-defusedxml==0.7.1
-dill==0.3.6
-Distance==0.1.3
-distlib==0.3.4
-dm-tree==0.1.6
-docopt==0.6.2
-dopamine-rl==3.2.1
-einops==0.6.0
-entrypoints==0.3
-espnet==0.10.6
-espnet-model-zoo==0.1.7
-espnet-tts-frontend==0.0.3
-executing==1.0.0
-fastjsonschema==2.16.1
-filelock==3.6.0
-flake8==3.7.9
-Flask==2.0.3
-flatbuffers @ file:///home/ktietz/cip/python-flatbuffers_1634039120618/work
-flax==0.4.0
-fonttools==4.29.1
-frozenlist @ file:///tmp/build/80754af9/frozenlist_1637767113340/work
-future==0.18.2
-g2p-en==2.1.0
-gast==0.5.3
-gdown==4.4.0
-gevent==21.12.0
-gin-config==0.5.0
-google-api-core==2.5.0
-google-api-python-client==2.37.0
-google-auth==2.6.0
-google-auth-httplib2==0.1.0
-google-auth-oauthlib==0.4.6
-google-pasta @ file:///Users/ktietz/demo/mc3/conda-bld/google-pasta_1630577991354/work
-googleapis-common-protos==1.54.0
-greenlet==1.1.2
-grpcio==1.32.0
-gunicorn==20.1.0
-gym==0.21.0
-h5py==3.6.0
-hdf5storage==0.1.18
-httplib2==0.20.4
-huggingface-hub==0.9.1
-humanfriendly==10.0
-HyperPyYAML==1.0.0
-identify==2.5.5
-idna @ file:///tmp/build/80754af9/idna_1637925883363/work
-importlib-metadata==4.11.1
-importlib-resources==5.4.0
-inflect @ file:///tmp/build/80754af9/inflect_1614797294586/work
-ipykernel==6.15.3
-ipython==8.5.0
-ipython-genutils==0.2.0
-ipywidgets==8.0.2
-itsdangerous==2.0.1
-jaconv==0.3.3
-jamo==0.4.1
-jax==0.3.0
-jaxlib==0.3.0
-jedi==0.18.1
-Jinja2==3.0.3
-joblib==1.1.0
-jsonpatch==1.32
-jsonpointer==2.3
-jsonschema==4.16.0
-jupyter==1.0.0
-jupyter-console==6.4.4
-jupyter-core==4.11.1
-jupyter_client==7.3.5
-jupyterlab-pygments==0.2.2
-jupyterlab-widgets==3.0.3
-kaldiio==2.17.2
-keras==2.8.0
-Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
-kfac==0.2.0
-kiwisolver @ file:///opt/conda/conda-bld/kiwisolver_1638569886207/work
-libclang==13.0.0
-librosa==0.9.2
-llvmlite==0.39.1
-lxml==4.9.1
-Markdown==3.3.6
-MarkupSafe==2.0.1
-mat73==0.59
-matplotlib @ file:///tmp/build/80754af9/matplotlib-suite_1645455682260/work
-matplotlib-inline==0.1.6
-mccabe==0.6.1
-mesh-tensorflow==0.1.19
-mistune==2.0.4
-mkl-fft==1.3.1
-mkl-random @ file:///tmp/build/80754af9/mkl_random_1626186066731/work
-mkl-service==2.4.0
-more-itertools==8.14.0
-mpmath==1.2.1
-msgpack==1.0.3
-multidict @ file:///opt/conda/conda-bld/multidict_1640703752579/work
-multiprocess==0.70.14
-munkres==1.1.4
-nbclient==0.6.8
-nbconvert==7.0.0
-nbformat==5.5.0
-nest-asyncio==1.5.5
-networkx==3.0
-nltk==3.8.1
-nodeenv==1.7.0
-notebook==6.4.12
-numba==0.56.2
-numexpr @ file:///tmp/build/80754af9/numexpr_1640689833592/work
-numpy==1.19.5
-oauth2client==4.1.3
-oauthlib @ file:///opt/conda/conda-bld/oauthlib_1644332107998/work
-olefile @ file:///Users/ktietz/demo/mc3/conda-bld/olefile_1629805411829/work
-opencv-python==4.5.5.62
-opt-einsum @ file:///tmp/build/80754af9/opt_einsum_1621500238896/work
-optax==0.1.1
-packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
-pandas==1.4.1
-pandocfilters==1.5.0
-parallel-wavegan==0.5.4
-parso==0.8.3
-pathspec==0.10.1
-pexpect==4.8.0
-pickleshare==0.7.5
-Pillow==9.0.1
-pipreqs==0.4.11
-platformdirs==2.5.1
-pluggy==0.13.1
-pooch==1.6.0
-pre-commit==2.20.0
-prometheus-client==0.14.1
-promise==2.3
-prompt-toolkit==3.0.31
-protobuf==3.19.4
-psutil==5.9.2
-ptyprocess==0.7.0
-pure-eval==0.2.2
-py==1.11.0
-pyasn1 @ file:///Users/ktietz/demo/mc3/conda-bld/pyasn1_1629708007385/work
-pyasn1-modules==0.2.8
-pycodestyle==2.5.0
-pycosat==0.6.3
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
-pyflakes==2.1.1
-pygame==2.1.2
-Pygments==2.13.0
-PyJWT @ file:///tmp/build/80754af9/pyjwt_1619682484438/work
-pynndescent==0.5.8
-pyopenjtalk==0.2.0
-pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1635333100036/work
-pyparsing==3.0.7
-pypinyin==0.44.0
-pypng==0.0.21
-pyrsistent==0.18.1
-PySocks @ file:///tmp/build/80754af9/pysocks_1605305812635/work
-pytest==5.4.1
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-python-speech-features==0.6
-pytorch-wpe==0.0.1
-pytz==2021.3
-pyworld==0.3.2
-PyYAML==6.0
-pyzmq==24.0.0
-qtconsole==5.3.2
-QtPy==2.2.0
-regex==2022.9.13
-requests @ file:///opt/conda/conda-bld/requests_1641824580448/work
-requests-oauthlib==1.3.1
-resampy==0.4.2
-rsa==4.8
-ruamel-yaml-conda @ file:///tmp/build/80754af9/ruamel_yaml_1616016711199/work
-ruamel.yaml==0.17.21
-ruamel.yaml.clib==0.2.6
-scikit-learn==1.1.2
-scipy==1.8.0
-seaborn @ file:///tmp/build/80754af9/seaborn_1629307859561/work
-Send2Trash==1.8.0
-sentencepiece==0.1.96
-sip==4.19.13
-six==1.15.0
-sklearn==0.0
-soundfile==0.11.0
-soupsieve==2.3.2.post1
--e git+https://github.com/speechbrain/speechbrain.git@055d465b2a2bb727c26b030b83a791f2a14d8dfc#egg=speechbrain
-stack-data==0.5.0
-sympy==1.9
-tensor2tensor==1.15.7
-tensorboard==2.8.0
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.1
-tensorboardX==2.5.1
-tensorflow @ file:///home/builder/ktietz/aggregate/tensorflow_recipes/ci_cpu/tensorflow-base_1614360980945/work/tensorflow_pkg/tensorflow-2.4.1-cp39-cp39-linux_x86_64.whl
-tensorflow-addons==0.16.1
-tensorflow-datasets==4.5.2
-tensorflow-estimator==2.4.0
-tensorflow-gan==2.1.0
-tensorflow-hub==0.12.0
-tensorflow-io-gcs-filesystem==0.24.0
-tensorflow-metadata==1.6.0
-tensorflow-probability==0.7.0
-termcolor==1.1.0
-terminado==0.15.0
-tf-estimator-nightly==2.8.0.dev2021122109
-tf-slim==1.1.0
-threadpoolctl==3.1.0
-tinycss2==1.1.1
-tokenizers==0.12.1
-toml==0.10.2
-toolz==0.11.2
-torch==1.10.2
-torch-complex==0.4.3
-torchaudio==0.10.2
-torchvision==0.2.1
-tornado==6.2
-tqdm @ file:///tmp/build/80754af9/tqdm_1635330843403/work
-traitlets==5.4.0
-transformers==4.22.1
-typed-ast==1.5.4
-typeguard==2.13.3
-typing-extensions==3.7.4.3
-umap-learn==0.5.3
-Unidecode @ file:///tmp/build/80754af9/unidecode_1614712377438/work
-uritemplate==4.1.1
-urllib3 @ file:///opt/conda/conda-bld/urllib3_1643638302206/work
-virtualenv==20.13.4
-visdom==0.2.3
-wcwidth==0.2.5
-webencodings==0.5.1
-webrtcvad==2.0.10
-websocket-client==1.5.0
-Werkzeug @ file:///opt/conda/conda-bld/werkzeug_1645628268370/work
-widgetsnbextension==4.0.3
-wrapt==1.12.1
-xmltodict==0.13.0
-yamllint==1.23.0
-yarg==0.1.9
-yarl @ file:///tmp/build/80754af9/yarl_1606939947528/work
-yq==3.1.0
-zipp @ file:///opt/conda/conda-bld/zipp_1641824620731/work
-zope.event==4.5.0
-zope.interface==5.4.0
-
-
-2023-02-28 16:58:41,703 - speechbrain.utils.superpowers - DEBUG - 99d1216
-
-
-2023-02-28 16:58:46,296 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
-2023-02-28 16:58:46,297 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
-2023-02-28 16:59:45,572 - speechbrain.core - ERROR - Exception:
-Traceback (most recent call last):
-  File "/research/iprobe-sandle20/Playground/evector/baseline_experiment/finetuned_ecapavox/msp_finetune.py", line 203, in <module>
-    speaker_brain.fit(
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/core.py", line 1207, in fit
-    self._fit_train(train_set=train_set, epoch=epoch, enable=enable)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/core.py", line 1060, in _fit_train
-    loss = self.fit_batch(batch)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/core.py", line 931, in fit_batch
-    outputs = self.compute_forward(batch, Stage.TRAIN)
-  File "/research/iprobe-sandle20/Playground/evector/baseline_experiment/finetuned_ecapavox/msp_finetune.py", line 90, in compute_forward
-    embeddings = self.modules.embedding_model(feats)
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/lobes/models/ECAPA_TDNN.py", line 498, in forward
-    x = self.asp(x, lengths=lengths)
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/lobes/models/ECAPA_TDNN.py", line 271, in forward
-    attn = self.conv(self.tanh(self.tdnn(attn)))
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/lobes/models/ECAPA_TDNN.py", line 81, in forward
-    return self.norm(self.activation(self.conv(x)))
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/nnet/CNN.py", line 422, in forward
-    x = self._manage_padding(
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/nnet/CNN.py", line 474, in _manage_padding
-    x = F.pad(x, padding, mode=self.padding_mode)
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/functional.py", line 4179, in _pad
-    return torch._C._nn.reflection_pad1d(input, pad)
-RuntimeError: CUDA out of memory. Tried to allocate 3.20 GiB (GPU 0; 10.76 GiB total capacity; 8.00 GiB already allocated; 1.52 GiB free; 8.07 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-2023-02-28 17:01:18,200 - speechbrain.core - INFO - Beginning experiment!
-2023-02-28 17:01:18,200 - speechbrain.core - INFO - Experiment folder: results/ecapa_augment/1986
-2023-02-28 17:01:19,768 - speechbrain.utils.superpowers - DEBUG - absl-py @ file:///opt/conda/conda-bld/absl-py_1639803114343/work
-aiohttp @ file:///tmp/build/80754af9/aiohttp_1637856904808/work
-aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
-ale-py==0.7.4
-appdirs==1.4.4
-argcomplete==2.0.0
-argon2-cffi==21.3.0
-argon2-cffi-bindings==21.2.0
-astor==0.8.1
-asttokens==2.0.8
-astunparse==1.6.3
-async-timeout @ file:///tmp/build/80754af9/async-timeout_1637851218186/work
-attrs @ file:///opt/conda/conda-bld/attrs_1642510447205/work
-audioread==3.0.0
-backcall==0.2.0
-beautifulsoup4==4.11.1
-black==19.10b0
-bleach==5.0.1
-blinker==1.4
-Bottleneck @ file:///tmp/build/80754af9/bottleneck_1607575130224/work
-brotlipy==0.7.0
-bz2file==0.98
-cachetools==5.0.0
-certifi==2021.10.8
-cffi @ file:///opt/conda/conda-bld/cffi_1642701102775/work
-cfgv==3.3.1
-charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
-chex==0.1.0
-ci-sdr==0.0.2
-click==8.0.4
-cloudpickle==2.0.0
-conda==4.11.0
-conda-package-handling @ file:///tmp/build/80754af9/conda-package-handling_1618262147379/work
-ConfigArgParse==1.5.3
-cryptography @ file:///tmp/build/80754af9/cryptography_1633520369886/work
-ctc-segmentation==1.7.4
-cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
-Cython==0.29.33
-debugpy==1.6.3
-decorator==5.1.1
-defusedxml==0.7.1
-dill==0.3.6
-Distance==0.1.3
-distlib==0.3.4
-dm-tree==0.1.6
-docopt==0.6.2
-dopamine-rl==3.2.1
-einops==0.6.0
-entrypoints==0.3
-espnet==0.10.6
-espnet-model-zoo==0.1.7
-espnet-tts-frontend==0.0.3
-executing==1.0.0
-fastjsonschema==2.16.1
-filelock==3.6.0
-flake8==3.7.9
-Flask==2.0.3
-flatbuffers @ file:///home/ktietz/cip/python-flatbuffers_1634039120618/work
-flax==0.4.0
-fonttools==4.29.1
-frozenlist @ file:///tmp/build/80754af9/frozenlist_1637767113340/work
-future==0.18.2
-g2p-en==2.1.0
-gast==0.5.3
-gdown==4.4.0
-gevent==21.12.0
-gin-config==0.5.0
-google-api-core==2.5.0
-google-api-python-client==2.37.0
-google-auth==2.6.0
-google-auth-httplib2==0.1.0
-google-auth-oauthlib==0.4.6
-google-pasta @ file:///Users/ktietz/demo/mc3/conda-bld/google-pasta_1630577991354/work
-googleapis-common-protos==1.54.0
-greenlet==1.1.2
-grpcio==1.32.0
-gunicorn==20.1.0
-gym==0.21.0
-h5py==3.6.0
-hdf5storage==0.1.18
-httplib2==0.20.4
-huggingface-hub==0.9.1
-humanfriendly==10.0
-HyperPyYAML==1.0.0
-identify==2.5.5
-idna @ file:///tmp/build/80754af9/idna_1637925883363/work
-importlib-metadata==4.11.1
-importlib-resources==5.4.0
-inflect @ file:///tmp/build/80754af9/inflect_1614797294586/work
-ipykernel==6.15.3
-ipython==8.5.0
-ipython-genutils==0.2.0
-ipywidgets==8.0.2
-itsdangerous==2.0.1
-jaconv==0.3.3
-jamo==0.4.1
-jax==0.3.0
-jaxlib==0.3.0
-jedi==0.18.1
-Jinja2==3.0.3
-joblib==1.1.0
-jsonpatch==1.32
-jsonpointer==2.3
-jsonschema==4.16.0
-jupyter==1.0.0
-jupyter-console==6.4.4
-jupyter-core==4.11.1
-jupyter_client==7.3.5
-jupyterlab-pygments==0.2.2
-jupyterlab-widgets==3.0.3
-kaldiio==2.17.2
-keras==2.8.0
-Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
-kfac==0.2.0
-kiwisolver @ file:///opt/conda/conda-bld/kiwisolver_1638569886207/work
-libclang==13.0.0
-librosa==0.9.2
-llvmlite==0.39.1
-lxml==4.9.1
-Markdown==3.3.6
-MarkupSafe==2.0.1
-mat73==0.59
-matplotlib @ file:///tmp/build/80754af9/matplotlib-suite_1645455682260/work
-matplotlib-inline==0.1.6
-mccabe==0.6.1
-mesh-tensorflow==0.1.19
-mistune==2.0.4
-mkl-fft==1.3.1
-mkl-random @ file:///tmp/build/80754af9/mkl_random_1626186066731/work
-mkl-service==2.4.0
-more-itertools==8.14.0
-mpmath==1.2.1
-msgpack==1.0.3
-multidict @ file:///opt/conda/conda-bld/multidict_1640703752579/work
-multiprocess==0.70.14
-munkres==1.1.4
-nbclient==0.6.8
-nbconvert==7.0.0
-nbformat==5.5.0
-nest-asyncio==1.5.5
-networkx==3.0
-nltk==3.8.1
-nodeenv==1.7.0
-notebook==6.4.12
-numba==0.56.2
-numexpr @ file:///tmp/build/80754af9/numexpr_1640689833592/work
-numpy==1.19.5
-oauth2client==4.1.3
-oauthlib @ file:///opt/conda/conda-bld/oauthlib_1644332107998/work
-olefile @ file:///Users/ktietz/demo/mc3/conda-bld/olefile_1629805411829/work
-opencv-python==4.5.5.62
-opt-einsum @ file:///tmp/build/80754af9/opt_einsum_1621500238896/work
-optax==0.1.1
-packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
-pandas==1.4.1
-pandocfilters==1.5.0
-parallel-wavegan==0.5.4
-parso==0.8.3
-pathspec==0.10.1
-pexpect==4.8.0
-pickleshare==0.7.5
-Pillow==9.0.1
-pipreqs==0.4.11
-platformdirs==2.5.1
-pluggy==0.13.1
-pooch==1.6.0
-pre-commit==2.20.0
-prometheus-client==0.14.1
-promise==2.3
-prompt-toolkit==3.0.31
-protobuf==3.19.4
-psutil==5.9.2
-ptyprocess==0.7.0
-pure-eval==0.2.2
-py==1.11.0
-pyasn1 @ file:///Users/ktietz/demo/mc3/conda-bld/pyasn1_1629708007385/work
-pyasn1-modules==0.2.8
-pycodestyle==2.5.0
-pycosat==0.6.3
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
-pyflakes==2.1.1
-pygame==2.1.2
-Pygments==2.13.0
-PyJWT @ file:///tmp/build/80754af9/pyjwt_1619682484438/work
-pynndescent==0.5.8
-pyopenjtalk==0.2.0
-pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1635333100036/work
-pyparsing==3.0.7
-pypinyin==0.44.0
-pypng==0.0.21
-pyrsistent==0.18.1
-PySocks @ file:///tmp/build/80754af9/pysocks_1605305812635/work
-pytest==5.4.1
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-python-speech-features==0.6
-pytorch-wpe==0.0.1
-pytz==2021.3
-pyworld==0.3.2
-PyYAML==6.0
-pyzmq==24.0.0
-qtconsole==5.3.2
-QtPy==2.2.0
-regex==2022.9.13
-requests @ file:///opt/conda/conda-bld/requests_1641824580448/work
-requests-oauthlib==1.3.1
-resampy==0.4.2
-rsa==4.8
-ruamel-yaml-conda @ file:///tmp/build/80754af9/ruamel_yaml_1616016711199/work
-ruamel.yaml==0.17.21
-ruamel.yaml.clib==0.2.6
-scikit-learn==1.1.2
-scipy==1.8.0
-seaborn @ file:///tmp/build/80754af9/seaborn_1629307859561/work
-Send2Trash==1.8.0
-sentencepiece==0.1.96
-sip==4.19.13
-six==1.15.0
-sklearn==0.0
-soundfile==0.11.0
-soupsieve==2.3.2.post1
--e git+https://github.com/speechbrain/speechbrain.git@055d465b2a2bb727c26b030b83a791f2a14d8dfc#egg=speechbrain
-stack-data==0.5.0
-sympy==1.9
-tensor2tensor==1.15.7
-tensorboard==2.8.0
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.1
-tensorboardX==2.5.1
-tensorflow @ file:///home/builder/ktietz/aggregate/tensorflow_recipes/ci_cpu/tensorflow-base_1614360980945/work/tensorflow_pkg/tensorflow-2.4.1-cp39-cp39-linux_x86_64.whl
-tensorflow-addons==0.16.1
-tensorflow-datasets==4.5.2
-tensorflow-estimator==2.4.0
-tensorflow-gan==2.1.0
-tensorflow-hub==0.12.0
-tensorflow-io-gcs-filesystem==0.24.0
-tensorflow-metadata==1.6.0
-tensorflow-probability==0.7.0
-termcolor==1.1.0
-terminado==0.15.0
-tf-estimator-nightly==2.8.0.dev2021122109
-tf-slim==1.1.0
-threadpoolctl==3.1.0
-tinycss2==1.1.1
-tokenizers==0.12.1
-toml==0.10.2
-toolz==0.11.2
-torch==1.10.2
-torch-complex==0.4.3
-torchaudio==0.10.2
-torchvision==0.2.1
-tornado==6.2
-tqdm @ file:///tmp/build/80754af9/tqdm_1635330843403/work
-traitlets==5.4.0
-transformers==4.22.1
-typed-ast==1.5.4
-typeguard==2.13.3
-typing-extensions==3.7.4.3
-umap-learn==0.5.3
-Unidecode @ file:///tmp/build/80754af9/unidecode_1614712377438/work
-uritemplate==4.1.1
-urllib3 @ file:///opt/conda/conda-bld/urllib3_1643638302206/work
-virtualenv==20.13.4
-visdom==0.2.3
-wcwidth==0.2.5
-webencodings==0.5.1
-webrtcvad==2.0.10
-websocket-client==1.5.0
-Werkzeug @ file:///opt/conda/conda-bld/werkzeug_1645628268370/work
-widgetsnbextension==4.0.3
-wrapt==1.12.1
-xmltodict==0.13.0
-yamllint==1.23.0
-yarg==0.1.9
-yarl @ file:///tmp/build/80754af9/yarl_1606939947528/work
-yq==3.1.0
-zipp @ file:///opt/conda/conda-bld/zipp_1641824620731/work
-zope.event==4.5.0
-zope.interface==5.4.0
-
-
-2023-02-28 17:01:19,892 - speechbrain.utils.superpowers - DEBUG - 99d1216
-
-
-2023-02-28 17:01:22,910 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
-2023-02-28 17:01:22,911 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
-2023-02-28 17:01:23,296 - speechbrain.core - ERROR - Exception:
-Traceback (most recent call last):
-  File "/research/iprobe-sandle20/Playground/evector/baseline_experiment/finetuned_ecapavox/msp_finetune.py", line 203, in <module>
-    speaker_brain.fit(
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/core.py", line 1207, in fit
-    self._fit_train(train_set=train_set, epoch=epoch, enable=enable)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/core.py", line 1060, in _fit_train
-    loss = self.fit_batch(batch)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/core.py", line 931, in fit_batch
-    outputs = self.compute_forward(batch, Stage.TRAIN)
-  File "/research/iprobe-sandle20/Playground/evector/baseline_experiment/finetuned_ecapavox/msp_finetune.py", line 86, in compute_forward
-    feats = self.modules.compute_features(wavs)
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/lobes/features.py", line 138, in forward
-    STFT = self.compute_STFT(wav)
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/processing/features.py", line 161, in forward
-    stft = torch.stft(
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/functional.py", line 570, in stft
-    input = F.pad(input.view(extended_shape), [pad, pad], pad_mode)
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/functional.py", line 4174, in _pad
-    return _VF.constant_pad_nd(input, pad, value)
-RuntimeError: CUDA error: no kernel image is available for execution on the device
-CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
-For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
-2023-02-28 17:03:48,292 - speechbrain.core - INFO - Beginning experiment!
-2023-02-28 17:03:48,293 - speechbrain.core - INFO - Experiment folder: results/ecapa_augment/1986
-2023-02-28 17:03:50,631 - speechbrain.utils.superpowers - DEBUG - absl-py @ file:///opt/conda/conda-bld/absl-py_1639803114343/work
-aiohttp @ file:///tmp/build/80754af9/aiohttp_1637856904808/work
-aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
-ale-py==0.7.4
-appdirs==1.4.4
-argcomplete==2.0.0
-argon2-cffi==21.3.0
-argon2-cffi-bindings==21.2.0
-astor==0.8.1
-asttokens==2.0.8
-astunparse==1.6.3
-async-timeout @ file:///tmp/build/80754af9/async-timeout_1637851218186/work
-attrs @ file:///opt/conda/conda-bld/attrs_1642510447205/work
-audioread==3.0.0
-backcall==0.2.0
-beautifulsoup4==4.11.1
-black==19.10b0
-bleach==5.0.1
-blinker==1.4
-Bottleneck @ file:///tmp/build/80754af9/bottleneck_1607575130224/work
-brotlipy==0.7.0
-bz2file==0.98
-cachetools==5.0.0
-certifi==2021.10.8
-cffi @ file:///opt/conda/conda-bld/cffi_1642701102775/work
-cfgv==3.3.1
-charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
-chex==0.1.0
-ci-sdr==0.0.2
-click==8.0.4
-cloudpickle==2.0.0
-conda==4.11.0
-conda-package-handling @ file:///tmp/build/80754af9/conda-package-handling_1618262147379/work
-ConfigArgParse==1.5.3
-cryptography @ file:///tmp/build/80754af9/cryptography_1633520369886/work
-ctc-segmentation==1.7.4
-cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
-Cython==0.29.33
-debugpy==1.6.3
-decorator==5.1.1
-defusedxml==0.7.1
-dill==0.3.6
-Distance==0.1.3
-distlib==0.3.4
-dm-tree==0.1.6
-docopt==0.6.2
-dopamine-rl==3.2.1
-einops==0.6.0
-entrypoints==0.3
-espnet==0.10.6
-espnet-model-zoo==0.1.7
-espnet-tts-frontend==0.0.3
-executing==1.0.0
-fastjsonschema==2.16.1
-filelock==3.6.0
-flake8==3.7.9
-Flask==2.0.3
-flatbuffers @ file:///home/ktietz/cip/python-flatbuffers_1634039120618/work
-flax==0.4.0
-fonttools==4.29.1
-frozenlist @ file:///tmp/build/80754af9/frozenlist_1637767113340/work
-future==0.18.2
-g2p-en==2.1.0
-gast==0.5.3
-gdown==4.4.0
-gevent==21.12.0
-gin-config==0.5.0
-google-api-core==2.5.0
-google-api-python-client==2.37.0
-google-auth==2.6.0
-google-auth-httplib2==0.1.0
-google-auth-oauthlib==0.4.6
-google-pasta @ file:///Users/ktietz/demo/mc3/conda-bld/google-pasta_1630577991354/work
-googleapis-common-protos==1.54.0
-greenlet==1.1.2
-grpcio==1.32.0
-gunicorn==20.1.0
-gym==0.21.0
-h5py==3.6.0
-hdf5storage==0.1.18
-httplib2==0.20.4
-huggingface-hub==0.9.1
-humanfriendly==10.0
-HyperPyYAML==1.0.0
-identify==2.5.5
-idna @ file:///tmp/build/80754af9/idna_1637925883363/work
-importlib-metadata==4.11.1
-importlib-resources==5.4.0
-inflect @ file:///tmp/build/80754af9/inflect_1614797294586/work
-ipykernel==6.15.3
-ipython==8.5.0
-ipython-genutils==0.2.0
-ipywidgets==8.0.2
-itsdangerous==2.0.1
-jaconv==0.3.3
-jamo==0.4.1
-jax==0.3.0
-jaxlib==0.3.0
-jedi==0.18.1
-Jinja2==3.0.3
-joblib==1.1.0
-jsonpatch==1.32
-jsonpointer==2.3
-jsonschema==4.16.0
-jupyter==1.0.0
-jupyter-console==6.4.4
-jupyter-core==4.11.1
-jupyter_client==7.3.5
-jupyterlab-pygments==0.2.2
-jupyterlab-widgets==3.0.3
-kaldiio==2.17.2
-keras==2.8.0
-Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
-kfac==0.2.0
-kiwisolver @ file:///opt/conda/conda-bld/kiwisolver_1638569886207/work
-libclang==13.0.0
-librosa==0.9.2
-llvmlite==0.39.1
-lxml==4.9.1
-Markdown==3.3.6
-MarkupSafe==2.0.1
-mat73==0.59
-matplotlib @ file:///tmp/build/80754af9/matplotlib-suite_1645455682260/work
-matplotlib-inline==0.1.6
-mccabe==0.6.1
-mesh-tensorflow==0.1.19
-mistune==2.0.4
-mkl-fft==1.3.1
-mkl-random @ file:///tmp/build/80754af9/mkl_random_1626186066731/work
-mkl-service==2.4.0
-more-itertools==8.14.0
-mpmath==1.2.1
-msgpack==1.0.3
-multidict @ file:///opt/conda/conda-bld/multidict_1640703752579/work
-multiprocess==0.70.14
-munkres==1.1.4
-nbclient==0.6.8
-nbconvert==7.0.0
-nbformat==5.5.0
-nest-asyncio==1.5.5
-networkx==3.0
-nltk==3.8.1
-nodeenv==1.7.0
-notebook==6.4.12
-numba==0.56.2
-numexpr @ file:///tmp/build/80754af9/numexpr_1640689833592/work
-numpy==1.19.5
-oauth2client==4.1.3
-oauthlib @ file:///opt/conda/conda-bld/oauthlib_1644332107998/work
-olefile @ file:///Users/ktietz/demo/mc3/conda-bld/olefile_1629805411829/work
-opencv-python==4.5.5.62
-opt-einsum @ file:///tmp/build/80754af9/opt_einsum_1621500238896/work
-optax==0.1.1
-packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
-pandas==1.4.1
-pandocfilters==1.5.0
-parallel-wavegan==0.5.4
-parso==0.8.3
-pathspec==0.10.1
-pexpect==4.8.0
-pickleshare==0.7.5
-Pillow==9.0.1
-pipreqs==0.4.11
-platformdirs==2.5.1
-pluggy==0.13.1
-pooch==1.6.0
-pre-commit==2.20.0
-prometheus-client==0.14.1
-promise==2.3
-prompt-toolkit==3.0.31
-protobuf==3.19.4
-psutil==5.9.2
-ptyprocess==0.7.0
-pure-eval==0.2.2
-py==1.11.0
-pyasn1 @ file:///Users/ktietz/demo/mc3/conda-bld/pyasn1_1629708007385/work
-pyasn1-modules==0.2.8
-pycodestyle==2.5.0
-pycosat==0.6.3
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
-pyflakes==2.1.1
-pygame==2.1.2
-Pygments==2.13.0
-PyJWT @ file:///tmp/build/80754af9/pyjwt_1619682484438/work
-pynndescent==0.5.8
-pyopenjtalk==0.2.0
-pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1635333100036/work
-pyparsing==3.0.7
-pypinyin==0.44.0
-pypng==0.0.21
-pyrsistent==0.18.1
-PySocks @ file:///tmp/build/80754af9/pysocks_1605305812635/work
-pytest==5.4.1
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-python-speech-features==0.6
-pytorch-wpe==0.0.1
-pytz==2021.3
-pyworld==0.3.2
-PyYAML==6.0
-pyzmq==24.0.0
-qtconsole==5.3.2
-QtPy==2.2.0
-regex==2022.9.13
-requests @ file:///opt/conda/conda-bld/requests_1641824580448/work
-requests-oauthlib==1.3.1
-resampy==0.4.2
-rsa==4.8
-ruamel-yaml-conda @ file:///tmp/build/80754af9/ruamel_yaml_1616016711199/work
-ruamel.yaml==0.17.21
-ruamel.yaml.clib==0.2.6
-scikit-learn==1.1.2
-scipy==1.8.0
-seaborn @ file:///tmp/build/80754af9/seaborn_1629307859561/work
-Send2Trash==1.8.0
-sentencepiece==0.1.96
-sip==4.19.13
-six==1.15.0
-sklearn==0.0
-soundfile==0.11.0
-soupsieve==2.3.2.post1
--e git+https://github.com/speechbrain/speechbrain.git@055d465b2a2bb727c26b030b83a791f2a14d8dfc#egg=speechbrain
-stack-data==0.5.0
-sympy==1.9
-tensor2tensor==1.15.7
-tensorboard==2.8.0
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.1
-tensorboardX==2.5.1
-tensorflow @ file:///home/builder/ktietz/aggregate/tensorflow_recipes/ci_cpu/tensorflow-base_1614360980945/work/tensorflow_pkg/tensorflow-2.4.1-cp39-cp39-linux_x86_64.whl
-tensorflow-addons==0.16.1
-tensorflow-datasets==4.5.2
-tensorflow-estimator==2.4.0
-tensorflow-gan==2.1.0
-tensorflow-hub==0.12.0
-tensorflow-io-gcs-filesystem==0.24.0
-tensorflow-metadata==1.6.0
-tensorflow-probability==0.7.0
-termcolor==1.1.0
-terminado==0.15.0
-tf-estimator-nightly==2.8.0.dev2021122109
-tf-slim==1.1.0
-threadpoolctl==3.1.0
-tinycss2==1.1.1
-tokenizers==0.12.1
-toml==0.10.2
-toolz==0.11.2
-torch==1.10.2
-torch-complex==0.4.3
-torchaudio==0.10.2
-torchvision==0.2.1
-tornado==6.2
-tqdm @ file:///tmp/build/80754af9/tqdm_1635330843403/work
-traitlets==5.4.0
-transformers==4.22.1
-typed-ast==1.5.4
-typeguard==2.13.3
-typing-extensions==3.7.4.3
-umap-learn==0.5.3
-Unidecode @ file:///tmp/build/80754af9/unidecode_1614712377438/work
-uritemplate==4.1.1
-urllib3 @ file:///opt/conda/conda-bld/urllib3_1643638302206/work
-virtualenv==20.13.4
-visdom==0.2.3
-wcwidth==0.2.5
-webencodings==0.5.1
-webrtcvad==2.0.10
-websocket-client==1.5.0
-Werkzeug @ file:///opt/conda/conda-bld/werkzeug_1645628268370/work
-widgetsnbextension==4.0.3
-wrapt==1.12.1
-xmltodict==0.13.0
-yamllint==1.23.0
-yarg==0.1.9
-yarl @ file:///tmp/build/80754af9/yarl_1606939947528/work
-yq==3.1.0
-zipp @ file:///opt/conda/conda-bld/zipp_1641824620731/work
-zope.event==4.5.0
-zope.interface==5.4.0
-
-
-2023-02-28 17:03:50,680 - speechbrain.utils.superpowers - DEBUG - 99d1216
-
-
-2023-02-28 17:03:56,346 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
-2023-02-28 17:03:56,347 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
-2023-02-28 17:04:54,143 - speechbrain.core - ERROR - Exception:
-Traceback (most recent call last):
-  File "/research/iprobe-sandle20/Playground/evector/baseline_experiment/finetuned_ecapavox/msp_finetune.py", line 203, in <module>
-    speaker_brain.fit(
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/core.py", line 1207, in fit
-    self._fit_train(train_set=train_set, epoch=epoch, enable=enable)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/core.py", line 1060, in _fit_train
-    loss = self.fit_batch(batch)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/core.py", line 931, in fit_batch
-    outputs = self.compute_forward(batch, Stage.TRAIN)
-  File "/research/iprobe-sandle20/Playground/evector/baseline_experiment/finetuned_ecapavox/msp_finetune.py", line 90, in compute_forward
-    embeddings = self.modules.embedding_model(feats)
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/lobes/models/ECAPA_TDNN.py", line 498, in forward
-    x = self.asp(x, lengths=lengths)
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/lobes/models/ECAPA_TDNN.py", line 271, in forward
-    attn = self.conv(self.tanh(self.tdnn(attn)))
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/lobes/models/ECAPA_TDNN.py", line 81, in forward
-    return self.norm(self.activation(self.conv(x)))
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/nnet/CNN.py", line 422, in forward
-    x = self._manage_padding(
-  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/nnet/CNN.py", line 474, in _manage_padding
-    x = F.pad(x, padding, mode=self.padding_mode)
-  File "/research/iprobe-sandle20/miniconda3/lib/python3.9/site-packages/torch/nn/functional.py", line 4179, in _pad
-    return torch._C._nn.reflection_pad1d(input, pad)
-RuntimeError: CUDA out of memory. Tried to allocate 3.20 GiB (GPU 0; 10.76 GiB total capacity; 8.00 GiB already allocated; 1.52 GiB free; 8.07 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-2023-02-28 17:09:35,599 - speechbrain.core - INFO - Beginning experiment!
-2023-02-28 17:09:35,599 - speechbrain.core - INFO - Experiment folder: results/ecapa_augment/1986
-2023-02-28 17:09:37,296 - speechbrain.utils.superpowers - DEBUG - absl-py @ file:///opt/conda/conda-bld/absl-py_1639803114343/work
-aiohttp @ file:///tmp/build/80754af9/aiohttp_1637856904808/work
-aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
-ale-py==0.7.4
-appdirs==1.4.4
-argcomplete==2.0.0
-argon2-cffi==21.3.0
-argon2-cffi-bindings==21.2.0
-astor==0.8.1
-asttokens==2.0.8
-astunparse==1.6.3
-async-timeout @ file:///tmp/build/80754af9/async-timeout_1637851218186/work
-attrs @ file:///opt/conda/conda-bld/attrs_1642510447205/work
-audioread==3.0.0
-backcall==0.2.0
-beautifulsoup4==4.11.1
-black==19.10b0
-bleach==5.0.1
-blinker==1.4
-Bottleneck @ file:///tmp/build/80754af9/bottleneck_1607575130224/work
-brotlipy==0.7.0
-bz2file==0.98
-cachetools==5.0.0
-certifi==2021.10.8
-cffi @ file:///opt/conda/conda-bld/cffi_1642701102775/work
-cfgv==3.3.1
-charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
-chex==0.1.0
-ci-sdr==0.0.2
-click==8.0.4
-cloudpickle==2.0.0
-conda==4.11.0
-conda-package-handling @ file:///tmp/build/80754af9/conda-package-handling_1618262147379/work
-ConfigArgParse==1.5.3
-cryptography @ file:///tmp/build/80754af9/cryptography_1633520369886/work
-ctc-segmentation==1.7.4
-cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
-Cython==0.29.33
-debugpy==1.6.3
-decorator==5.1.1
-defusedxml==0.7.1
-dill==0.3.6
-Distance==0.1.3
-distlib==0.3.4
-dm-tree==0.1.6
-docopt==0.6.2
-dopamine-rl==3.2.1
-einops==0.6.0
-entrypoints==0.3
-espnet==0.10.6
-espnet-model-zoo==0.1.7
-espnet-tts-frontend==0.0.3
-executing==1.0.0
-fastjsonschema==2.16.1
-filelock==3.6.0
-flake8==3.7.9
-Flask==2.0.3
-flatbuffers @ file:///home/ktietz/cip/python-flatbuffers_1634039120618/work
-flax==0.4.0
-fonttools==4.29.1
-frozenlist @ file:///tmp/build/80754af9/frozenlist_1637767113340/work
-future==0.18.2
-g2p-en==2.1.0
-gast==0.5.3
-gdown==4.4.0
-gevent==21.12.0
-gin-config==0.5.0
-google-api-core==2.5.0
-google-api-python-client==2.37.0
-google-auth==2.6.0
-google-auth-httplib2==0.1.0
-google-auth-oauthlib==0.4.6
-google-pasta @ file:///Users/ktietz/demo/mc3/conda-bld/google-pasta_1630577991354/work
-googleapis-common-protos==1.54.0
-greenlet==1.1.2
-grpcio==1.32.0
-gunicorn==20.1.0
-gym==0.21.0
-h5py==3.6.0
-hdf5storage==0.1.18
-httplib2==0.20.4
-huggingface-hub==0.9.1
-humanfriendly==10.0
-HyperPyYAML==1.0.0
-identify==2.5.5
-idna @ file:///tmp/build/80754af9/idna_1637925883363/work
-importlib-metadata==4.11.1
-importlib-resources==5.4.0
-inflect @ file:///tmp/build/80754af9/inflect_1614797294586/work
-ipykernel==6.15.3
-ipython==8.5.0
-ipython-genutils==0.2.0
-ipywidgets==8.0.2
-itsdangerous==2.0.1
-jaconv==0.3.3
-jamo==0.4.1
-jax==0.3.0
-jaxlib==0.3.0
-jedi==0.18.1
-Jinja2==3.0.3
-joblib==1.1.0
-jsonpatch==1.32
-jsonpointer==2.3
-jsonschema==4.16.0
-jupyter==1.0.0
-jupyter-console==6.4.4
-jupyter-core==4.11.1
-jupyter_client==7.3.5
-jupyterlab-pygments==0.2.2
-jupyterlab-widgets==3.0.3
-kaldiio==2.17.2
-keras==2.8.0
-Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
-kfac==0.2.0
-kiwisolver @ file:///opt/conda/conda-bld/kiwisolver_1638569886207/work
-libclang==13.0.0
-librosa==0.9.2
-llvmlite==0.39.1
-lxml==4.9.1
-Markdown==3.3.6
-MarkupSafe==2.0.1
-mat73==0.59
-matplotlib @ file:///tmp/build/80754af9/matplotlib-suite_1645455682260/work
-matplotlib-inline==0.1.6
-mccabe==0.6.1
-mesh-tensorflow==0.1.19
-mistune==2.0.4
-mkl-fft==1.3.1
-mkl-random @ file:///tmp/build/80754af9/mkl_random_1626186066731/work
-mkl-service==2.4.0
-more-itertools==8.14.0
-mpmath==1.2.1
-msgpack==1.0.3
-multidict @ file:///opt/conda/conda-bld/multidict_1640703752579/work
-multiprocess==0.70.14
-munkres==1.1.4
-nbclient==0.6.8
-nbconvert==7.0.0
-nbformat==5.5.0
-nest-asyncio==1.5.5
-networkx==3.0
-nltk==3.8.1
-nodeenv==1.7.0
-notebook==6.4.12
-numba==0.56.2
-numexpr @ file:///tmp/build/80754af9/numexpr_1640689833592/work
-numpy==1.19.5
-oauth2client==4.1.3
-oauthlib @ file:///opt/conda/conda-bld/oauthlib_1644332107998/work
-olefile @ file:///Users/ktietz/demo/mc3/conda-bld/olefile_1629805411829/work
-opencv-python==4.5.5.62
-opt-einsum @ file:///tmp/build/80754af9/opt_einsum_1621500238896/work
-optax==0.1.1
-packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
-pandas==1.4.1
-pandocfilters==1.5.0
-parallel-wavegan==0.5.4
-parso==0.8.3
-pathspec==0.10.1
-pexpect==4.8.0
-pickleshare==0.7.5
-Pillow==9.0.1
-pipreqs==0.4.11
-platformdirs==2.5.1
-pluggy==0.13.1
-pooch==1.6.0
-pre-commit==2.20.0
-prometheus-client==0.14.1
-promise==2.3
-prompt-toolkit==3.0.31
-protobuf==3.19.4
-psutil==5.9.2
-ptyprocess==0.7.0
-pure-eval==0.2.2
-py==1.11.0
-pyasn1 @ file:///Users/ktietz/demo/mc3/conda-bld/pyasn1_1629708007385/work
-pyasn1-modules==0.2.8
-pycodestyle==2.5.0
-pycosat==0.6.3
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
-pyflakes==2.1.1
-pygame==2.1.2
-Pygments==2.13.0
-PyJWT @ file:///tmp/build/80754af9/pyjwt_1619682484438/work
-pynndescent==0.5.8
-pyopenjtalk==0.2.0
-pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1635333100036/work
-pyparsing==3.0.7
-pypinyin==0.44.0
-pypng==0.0.21
-pyrsistent==0.18.1
-PySocks @ file:///tmp/build/80754af9/pysocks_1605305812635/work
-pytest==5.4.1
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-python-speech-features==0.6
-pytorch-wpe==0.0.1
-pytz==2021.3
-pyworld==0.3.2
-PyYAML==6.0
-pyzmq==24.0.0
-qtconsole==5.3.2
-QtPy==2.2.0
-regex==2022.9.13
-requests @ file:///opt/conda/conda-bld/requests_1641824580448/work
-requests-oauthlib==1.3.1
-resampy==0.4.2
-rsa==4.8
-ruamel-yaml-conda @ file:///tmp/build/80754af9/ruamel_yaml_1616016711199/work
-ruamel.yaml==0.17.21
-ruamel.yaml.clib==0.2.6
-scikit-learn==1.1.2
-scipy==1.8.0
-seaborn @ file:///tmp/build/80754af9/seaborn_1629307859561/work
-Send2Trash==1.8.0
-sentencepiece==0.1.96
-sip==4.19.13
-six==1.15.0
-sklearn==0.0
-soundfile==0.11.0
-soupsieve==2.3.2.post1
--e git+https://github.com/speechbrain/speechbrain.git@055d465b2a2bb727c26b030b83a791f2a14d8dfc#egg=speechbrain
-stack-data==0.5.0
-sympy==1.9
-tensor2tensor==1.15.7
-tensorboard==2.8.0
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.1
-tensorboardX==2.5.1
-tensorflow @ file:///home/builder/ktietz/aggregate/tensorflow_recipes/ci_cpu/tensorflow-base_1614360980945/work/tensorflow_pkg/tensorflow-2.4.1-cp39-cp39-linux_x86_64.whl
-tensorflow-addons==0.16.1
-tensorflow-datasets==4.5.2
-tensorflow-estimator==2.4.0
-tensorflow-gan==2.1.0
-tensorflow-hub==0.12.0
-tensorflow-io-gcs-filesystem==0.24.0
-tensorflow-metadata==1.6.0
-tensorflow-probability==0.7.0
-termcolor==1.1.0
-terminado==0.15.0
-tf-estimator-nightly==2.8.0.dev2021122109
-tf-slim==1.1.0
-threadpoolctl==3.1.0
-tinycss2==1.1.1
-tokenizers==0.12.1
-toml==0.10.2
-toolz==0.11.2
-torch==1.10.2
-torch-complex==0.4.3
-torchaudio==0.10.2
-torchvision==0.2.1
-tornado==6.2
-tqdm @ file:///tmp/build/80754af9/tqdm_1635330843403/work
-traitlets==5.4.0
-transformers==4.22.1
-typed-ast==1.5.4
-typeguard==2.13.3
-typing-extensions==3.7.4.3
-umap-learn==0.5.3
-Unidecode @ file:///tmp/build/80754af9/unidecode_1614712377438/work
-uritemplate==4.1.1
-urllib3 @ file:///opt/conda/conda-bld/urllib3_1643638302206/work
-virtualenv==20.13.4
-visdom==0.2.3
-wcwidth==0.2.5
-webencodings==0.5.1
-webrtcvad==2.0.10
-websocket-client==1.5.0
-Werkzeug @ file:///opt/conda/conda-bld/werkzeug_1645628268370/work
-widgetsnbextension==4.0.3
-wrapt==1.12.1
-xmltodict==0.13.0
-yamllint==1.23.0
-yarg==0.1.9
-yarl @ file:///tmp/build/80754af9/yarl_1606939947528/work
-yq==3.1.0
-zipp @ file:///opt/conda/conda-bld/zipp_1641824620731/work
-zope.event==4.5.0
-zope.interface==5.4.0
-
-
-2023-02-28 17:09:37,333 - speechbrain.utils.superpowers - DEBUG - 99d1216
-
-
-2023-02-28 17:09:41,128 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
-2023-02-28 17:09:41,129 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/core.py", line 936, in fit_batch
+    if self.check_gradients(loss):
+  File "/research/iprobe-sandle20/Playground/speechbrain/speechbrain/core.py", line 977, in check_gradients
+    if not torch.isfinite(loss):
+KeyboardInterrupt

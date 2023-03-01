@@ -4,6 +4,7 @@
 # ################################
 # Model: Speaker identification with ECAPA
 # Authors: Hwidong Na & Mirco Ravanelli
+# Modified for MSP-Podcast by Morgan Sandler
 # ################################
 
 # Basic parameters
@@ -15,7 +16,7 @@ train_log: results/ecapa_augment/1986/train_log.txt
 
 # Data files
 # data_folder: !PLACEHOLDER  # e.g. /path/to/Voxceleb
-#train_annotation: !ref <save_folder>/train.csv
+# train_annotation: !ref <save_folder>/train.csv
 # valid_annotation: !ref <save_folder>/dev.csv
 
 # Folder to extract data augmentation files
@@ -23,10 +24,10 @@ train_log: results/ecapa_augment/1986/train_log.txt
 
 # split_ratio: [90, 10]
 # skip_prep: False
-# ckpt_interval_minutes: 15 # save checkpoint every N min
+ckpt_interval_minutes: 10 # save checkpoint every N min
 
 # Training parameters
-number_of_epochs: 10
+number_of_epochs: 1000
 batch_size: 16
 lr: 0.001
 base_lr: 0.00000001
@@ -72,7 +73,7 @@ classifier: &id003 !new:speechbrain.lobes.models.ECAPA_TDNN.Classifier
   out_neurons: 60
 
 epoch_counter: &id005 !new:speechbrain.utils.epoch_loop.EpochCounter
-  limit: 10
+  limit: 1000
 
 
 augment_wavedrop: !new:speechbrain.lobes.augment.TimeDomainSpecAugment
@@ -100,7 +101,7 @@ compute_cost: !new:speechbrain.nnet.losses.LogSoftmaxWrapper
     margin: 0.2
     scale: 30
 
-# compute_error: !name:speechbrain.nnet.losses.classification_error
+compute_error: !name:speechbrain.nnet.losses.classification_error
 
 opt_class: !name:torch.optim.Adam
   lr: 0.001

@@ -4,3 +4,4 @@ model_saves/
 encoder/saved_models/
 *.pt
 *.ckpt
+baseline_experiment/finetuned_ecapavox/results/

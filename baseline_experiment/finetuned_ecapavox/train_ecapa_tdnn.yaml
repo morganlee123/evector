@@ -1,10 +1,11 @@
 # ################################
 # Model: Speaker identification with ECAPA
 # Authors: Hwidong Na & Mirco Ravanelli
+# Modified for MSP-Podcast by Morgan Sandler
 # ################################
 
 # Basic parameters
-seed: 1986
+seed: 2000
 __set_seed: !apply:torch.manual_seed [!ref <seed>]
 output_folder: !ref results/ecapa_augment/<seed>
 save_folder: !ref <output_folder>/save
@@ -12,7 +13,7 @@ train_log: !ref <output_folder>/train_log.txt
 
 # Data files
 # data_folder: !PLACEHOLDER  # e.g. /path/to/Voxceleb
-#train_annotation: !ref <save_folder>/train.csv
+# train_annotation: !ref <save_folder>/train.csv
 # valid_annotation: !ref <save_folder>/dev.csv
 
 # Folder to extract data augmentation files
@@ -20,10 +21,10 @@ train_log: !ref <output_folder>/train_log.txt
 
 # split_ratio: [90, 10]
 # skip_prep: False
-# ckpt_interval_minutes: 15 # save checkpoint every N min
+ckpt_interval_minutes: 1 # save checkpoint every N min
 
 # Training parameters
-number_of_epochs: 10
+number_of_epochs: 1000
 batch_size: 16
 lr: 0.001
 base_lr: 0.00000001
@@ -97,7 +98,7 @@ compute_cost: !new:speechbrain.nnet.losses.LogSoftmaxWrapper
         margin: 0.2
         scale: 30
 
-# compute_error: !name:speechbrain.nnet.losses.classification_error
+compute_error: !name:speechbrain.nnet.losses.classification_error
 
 opt_class: !name:torch.optim.Adam
     lr: !ref <lr>
