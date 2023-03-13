@@ -5,7 +5,7 @@ import random
 import sys
 
 # Author: Morgan Sandler (sandle20@msu.edu)
-# Purpose: Compute all the ROC curves for a given MSPPod test set
+# Purpose: Compute all the DET curves for a given MSPPod test set
 
 # SYNTAX. Choose your set between val, test1, or test2
 # e.g., python roc_curves.py [val/test1/test2]
@@ -34,7 +34,6 @@ test3_results = pd.read_csv('./baseline_experiment/finetuned_ecapavox/Experiment
 test4_results = pd.read_csv('./baseline_experiment/ExperimentData/pretrained_ecapa_msp/'+sys.argv[1]+'_results.csv',
                             header=0, 
                             skiprows=lambda i: i>0 and random.random() > p) # ecapa msp
-
 
 print('results loaded in')
 
@@ -85,7 +84,6 @@ for i, row in test4_results.iterrows():
 print(len(genuine4),'genuine scores,', len(impostor4), 'impostor scores loaded')
 
 
-
 genuine1_scores = [i['MatchScore'] for i in genuine1]
 impostor1_scores = [i['MatchScore'] for i in impostor1]
 total1_scores = np.concatenate([genuine1_scores, impostor1_scores])
@@ -101,6 +99,7 @@ impostor3_scores = [i['MatchScore'] for i in impostor3]
 total3_scores = np.concatenate([genuine3_scores, impostor3_scores])
 ground3_truth = np.concatenate([[1 for i in range(len(genuine3_scores))], [0 for i in range(len(impostor3_scores))]])
 
+
 genuine4_scores = [i['MatchScore'] for i in genuine4]
 impostor4_scores = [i['MatchScore'] for i in impostor4]
 total4_scores = np.concatenate([genuine4_scores, impostor4_scores])
@@ -111,16 +110,16 @@ from sklearn import metrics
 
 
 ax = plt.gca()
-d1 = metrics.RocCurveDisplay.from_predictions(ground1_truth, total1_scores, ax=ax, name='E-Vector w/ MSP-Pod')
-d2 = metrics.RocCurveDisplay.from_predictions(ground2_truth, total2_scores, ax=ax, name='ECAPA-TDNN w/ VoxCeleb1+2')
-d3 = metrics.RocCurveDisplay.from_predictions(ground3_truth, total3_scores, ax=ax, name='ECAPA-TDNN w/ VoxC1+2 + MSP-Pod')
-d4 = metrics.RocCurveDisplay.from_predictions(ground4_truth, total4_scores, ax=ax, name='ECAPA-TDNN w/ MSP-Pod')
+d1 = metrics.DetCurveDisplay.from_predictions(ground1_truth, total1_scores, ax=ax, name='E-Vector w/ MSP-Pod')
+d2 = metrics.DetCurveDisplay.from_predictions(ground2_truth, total2_scores, ax=ax, name='ECAPA-TDNN w/ VoxCeleb1+2')
+d3 = metrics.DetCurveDisplay.from_predictions(ground3_truth, total3_scores, ax=ax, name='ECAPA-TDNN w/ VoxC1+2 + MSP-Pod')
+d4 = metrics.DetCurveDisplay.from_predictions(ground4_truth, total4_scores, ax=ax, name='ECAPA-TDNN w/ MSP-Pod')
 
-plt.xscale("log") # NOTE: This gives semi-log. Feel free to comment this out
-plt.ylabel('True Match Rate')
+#plt.xscale("log") # NOTE: This gives semi-log. Feel free to comment this out
+plt.ylabel('False Non-Match Rate')
 plt.xlabel('False Match Rate')
 plt.legend(loc='upper left')
 plt.show()
-plt.savefig(sys.argv[1]+'_roc.jpg')
+plt.savefig(sys.argv[1]+'_det.jpg')
 
-print('Done. saved '+sys.argv[1]+'_roc.jpg')
+print('Done. saved '+sys.argv[1]+'_det.jpg')

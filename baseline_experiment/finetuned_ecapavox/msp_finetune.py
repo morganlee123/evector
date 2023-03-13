@@ -126,11 +126,11 @@ class SpeakerBrain(sb.core.Brain):
             self.error_metrics = self.hparams.error_stats()
         # enable grad for all modules we want to fine-tune
         if stage == sb.Stage.TRAIN:
-            for module in [self.modules.classifier]:
+            for module in [self.modules.embedding_model, self.modules.classifier]: # FINETUNING EMBED MODEL + CLASSIFIER
                 for p in module.parameters():
                     p.requires_grad = True
 
-            for module in [self.modules.embedding_model, self.modules.mean_var_norm, self.modules.compute_features]:
+            for module in [self.modules.mean_var_norm, self.modules.compute_features]:
                 for p in module.parameters():
                     p.requires_grad = False
 

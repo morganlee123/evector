@@ -1,0 +1,1 @@
+I tested 35 epochs because it appears the model begins overfitting past this point. These results affirm that hypothesis. 80 Epochs provides the same performance as this 35 epoch.

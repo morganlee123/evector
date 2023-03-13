@@ -1,14 +1,17 @@
-import pandas as pd
-import matplotlib.pyplot as plt
+# Implementation of D-prime from the following post
+# https://stats.stackexchange.com/questions/492673/understanding-and-implementing-the-dprime-measure-in-python
+
+# USAGE python d_prime_calculator.py [test1/test2/val] > d_prime_res.txt 
+
 import numpy as np
-import random
+from sklearn.metrics import roc_auc_score
+from scipy import stats
+from scipy.stats import norm
+import math
 import sys
-
-# Author: Morgan Sandler (sandle20@msu.edu)
-# Purpose: Compute all the ROC curves for a given MSPPod test set
-
-# SYNTAX. Choose your set between val, test1, or test2
-# e.g., python roc_curves.py [val/test1/test2]
+import random
+import pandas as pd
+Z = norm.ppf
 
 
 p = 0.01  # 1% or .01 of the lines works for val and test2.     0.5% or .005 works for test1
@@ -85,7 +88,6 @@ for i, row in test4_results.iterrows():
 print(len(genuine4),'genuine scores,', len(impostor4), 'impostor scores loaded')
 
 
-
 genuine1_scores = [i['MatchScore'] for i in genuine1]
 impostor1_scores = [i['MatchScore'] for i in impostor1]
 total1_scores = np.concatenate([genuine1_scores, impostor1_scores])
@@ -107,20 +109,11 @@ total4_scores = np.concatenate([genuine4_scores, impostor4_scores])
 ground4_truth = np.concatenate([[1 for i in range(len(genuine4_scores))], [0 for i in range(len(impostor4_scores))]])
 
 
-from sklearn import metrics
-
-
-ax = plt.gca()
-d1 = metrics.RocCurveDisplay.from_predictions(ground1_truth, total1_scores, ax=ax, name='E-Vector w/ MSP-Pod')
-d2 = metrics.RocCurveDisplay.from_predictions(ground2_truth, total2_scores, ax=ax, name='ECAPA-TDNN w/ VoxCeleb1+2')
-d3 = metrics.RocCurveDisplay.from_predictions(ground3_truth, total3_scores, ax=ax, name='ECAPA-TDNN w/ VoxC1+2 + MSP-Pod')
-d4 = metrics.RocCurveDisplay.from_predictions(ground4_truth, total4_scores, ax=ax, name='ECAPA-TDNN w/ MSP-Pod')
-
-plt.xscale("log") # NOTE: This gives semi-log. Feel free to comment this out
-plt.ylabel('True Match Rate')
-plt.xlabel('False Match Rate')
-plt.legend(loc='upper left')
-plt.show()
-plt.savefig(sys.argv[1]+'_roc.jpg')
-
-print('Done. saved '+sys.argv[1]+'_roc.jpg')
+dprime_1 = math.sqrt(2) * Z(roc_auc_score(ground1_truth,total1_scores))
+dprime_2 = math.sqrt(2) * Z(roc_auc_score(ground2_truth,total2_scores))
+dprime_3 = math.sqrt(2) * Z(roc_auc_score(ground3_truth,total3_scores))
+dprime_4 = math.sqrt(2) * Z(roc_auc_score(ground4_truth,total4_scores))
+print('E-vector d-prime=',dprime_1)
+print('ecapa+vox d-prime=',dprime_2)
+print('ecapa+vox+msp ft d-prime=',dprime_3)
+print('ecapa+msp d-prime=',dprime_4)

@@ -18,6 +18,7 @@ from audio import preprocess_wav
 
 #
 # Author: Morgan Sandler (sandle20@msu.edu)
+# NOTE: THIS IS THE FINETUNED MODEL WITH MSP-PODCAST DATA + VOX1+2 on ECAPA-TDNN
 # The purpose of this program is to compute the SV experiment with a Pretrained Vox1+2 ECAPA model Finetuned on MSP-Pod train data
 
 # NOTE: Here is the syntax to run: python ecapa_speaker_verification_MSP.py <val/test1/test2> <dataset_root_path>
