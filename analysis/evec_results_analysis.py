@@ -318,7 +318,6 @@ val_minDCF, threshold_dcf = minDCF(gen,imp,c_miss=10)
 print('MinDCF:', val_minDCF, '. Threshold@', threshold_dcf) # TODO: For some reason this function allocates 300 GB
 
 
-
 #################################
 
 
