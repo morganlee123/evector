@@ -1,4 +1,4 @@
-# E-Vector: Fixed Dimensions Representations Encoding Speaker Identity in Emotive Settings.
+# E-Vector: Fixed-Dimension Representations Encoding Speaker Identity in Affective Settings.
 ## Morgan Sandler
 This is mostly my thesis work! This repo is under construction. More details to come soon. Experimental Data is not included with this repository (Just code/figures/etc.). If you would like pre-trained models, please reach out to sandle20@msu.edu.
 
