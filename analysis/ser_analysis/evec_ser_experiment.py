@@ -160,9 +160,17 @@ else:
     
         print('generating conf matrix')
         conf_mat = confusion_matrix(y_test, model.predict(X_test))
-        print(conf_mat)    
-        plt.figure()
-        sns.heatmap(conf_mat, annot=True)
+        #print(conf_mat)    
+
+        ax = plt.gca()
+        conf_mat = np.array(conf_mat) / sum(conf_mat[0]) * 100 # TODO: This doesn't seem to be working for generating a %
+        ax.set_xlabel('Predicted')
+        ax.set_ylabel('True')
+        ax.set_title('Speech Emotion Recognition (MSP-Podcast)')
+        labels = ['Anger', 'Contempt', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Other', 'Sad', 'Surprise', 'No Agreement']
+        ax.xaxis.set_ticklabels(labels)
+        ax.yaxis.set_ticklabels(labels)
+        sns.heatmap(conf_mat, annot=True, cmap='Blues', ax=ax)
         plt.savefig('./'+test_set+'_ser_confusion_matrix.png')
 
     else:
