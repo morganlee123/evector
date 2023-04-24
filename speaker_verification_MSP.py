@@ -16,17 +16,23 @@ from itertools import combinations
 from tqdm import tqdm
 import pickle
 
+tokensize=sys.argv[3]
+
 #
 # Author: Morgan Sandler (sandle20@msu.edu)
 # The purpose of this file is to perform a speaker verification for E-Vector over the MSP-Podcast testing sets 
 # Note: this file will also perform the VAD/other preprocessing necessary if the get_speaker_embedding flag is set to preprocessing=True (which is default nature)
 #
 
-# NOTE: Here is the syntax to run: python speaker_verification_MSP.py <val/test1/test2> <dataset_root_path>
-# example: python speaker_verification_MSP.py val /research/iprobe/datastore/datasets/speech/utd-msppodcast_v1.8/
+# NOTE: Here is the syntax to run: python speaker_verification_MSP.py <val/test1/test2> <dataset_root_path> <tokensize>
+# example: python speaker_verification_MSP.py val /research/iprobe/datastore/datasets/speech/utd-msppodcast_v1.8/ 20token
 
 def get_model():
-    model_save_path = Path('/research/iprobe-sandle20/Playground/evector/encoder/saved_models/first_backups/first_bak_105000.pt') # NOTE: Add your own path here to your saved model
+    #model_save_path = Path('/research/iprobe-sandle20/Playground/evector/encoder/saved_models/first_backups/first_bak_105000.pt') # NOTE: Add your own path here to your saved model
+    #model_save_path = Path('/research/iprobe-sandle20/Playground/evector/encoder/saved_models/20tokens_backups/20tokens_bak_105000.pt') # NOTE: Add your own path here to your saved model
+    model_save_path = Path('/research/iprobe-sandle20/Playground/evector/encoder/saved_models/5tokens_backups/5tokens_bak_105000.pt') # NOTE: Add your own path here to your saved model
+    
+
     module_name = 'model_GST'
     encoder.load_model(model_save_path, module_name=module_name)
     return encoder
@@ -142,9 +148,9 @@ else:
         except KeyboardInterrupt:
             # save early if keeb interrupt
             final_df = pd.DataFrame(results)
-            final_df.to_csv('ExperimentData/val_results.csv')
+            final_df.to_csv('ExperimentData/'+tokensize+'/'+'val_results.csv')
 
-            with open('ExperimentData/val_speaker_embeddings.pickle', 'wb') as handle:
+            with open('ExperimentData/'+tokensize+'/'+'val_speaker_embeddings.pickle', 'wb') as handle:
                 pickle.dump(speaker_embed_cache, handle, protocol=pickle.HIGHEST_PROTOCOL)
             print('Data Saved')
     elif testing_set == 'test1':
@@ -217,9 +223,9 @@ else:
         except KeyboardInterrupt:
             # save early if keeb interrupt
             final_df = pd.DataFrame(results)
-            final_df.to_csv('ExperimentData/test1_results.csv')
+            final_df.to_csv('ExperimentData/'+tokensize+'/'+'test1_results.csv')
 
-            with open('ExperimentData/test1_speaker_embeddings.pickle', 'wb') as handle:
+            with open('ExperimentData/'+tokensize+'/'+'test1_speaker_embeddings.pickle', 'wb') as handle:
                 pickle.dump(speaker_embed_cache, handle, protocol=pickle.HIGHEST_PROTOCOL)
             print('Data Saved')
     elif testing_set == 'test2':
@@ -292,18 +298,18 @@ else:
         except KeyboardInterrupt:
             # save early if keeb interrupt
             final_df = pd.DataFrame(results)
-            final_df.to_csv('ExperimentData/test2_results.csv')
+            final_df.to_csv('ExperimentData/'+tokensize+'/'+'test2_results.csv')
 
-            with open('ExperimentData/test2_speaker_embeddings.pickle', 'wb') as handle:
+            with open('ExperimentData/'+tokensize+'/'+'test2_speaker_embeddings.pickle', 'wb') as handle:
                 pickle.dump(speaker_embed_cache, handle, protocol=pickle.HIGHEST_PROTOCOL)
             print('Data Saved')
     else:
         print('oops that set doesnt exist. try again')
 
     final_df = pd.DataFrame(results)
-    final_df.to_csv('ExperimentData/'+testing_set+'_results.csv')
+    final_df.to_csv('ExperimentData/'+tokensize+'/'+testing_set+'_results.csv')
 
-    with open('ExperimentData/'+testing_set+'_speaker_embeddings.pickle', 'wb') as handle:
+    with open('ExperimentData/'+tokensize+'/'+testing_set+'_speaker_embeddings.pickle', 'wb') as handle:
         pickle.dump(speaker_embed_cache, handle, protocol=pickle.HIGHEST_PROTOCOL)
     print('Data Saved')
 
