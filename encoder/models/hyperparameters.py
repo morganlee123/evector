@@ -44,7 +44,7 @@ class Hyperparameters():
     ref_enc_gru_size = E // 2
 
     # style token layer
-    token_num = 10
+    token_num = 5 #TODO: you can tweak this 5, 10, 20
     # token_emb_size = 256
     num_heads = 8
     # multihead_attn_num_unit = 256

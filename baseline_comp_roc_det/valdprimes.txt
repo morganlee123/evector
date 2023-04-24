@@ -1,0 +1,9 @@
+results loaded in
+19411 genuine scores, 268585 impostor scores loaded
+20733 genuine scores, 283618 impostor scores loaded
+20684 genuine scores, 284085 impostor scores loaded
+19352 genuine scores, 267322 impostor scores loaded
+E-vector d-prime= 2.1403337624959944
+ecapa+vox d-prime= 0.8191428253923839
+ecapa+vox+msp ft d-prime= 0.6861749348817955
+ecapa+msp d-prime= 1.3498483883059607

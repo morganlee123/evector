@@ -30,15 +30,15 @@ if model == 'evec':
                                 header=0, 
                                 skiprows=lambda i: i>0 and random.random() > p) # evector
 elif model == 'ecapavox':
-    test2_results = pd.read_csv('../baseline_experiment/ExperimentData/pretrained_ecapa_vox/'+sys.argv[1]+'_results.csv',
+    test_results = pd.read_csv('../baseline_experiment/ExperimentData/pretrained_ecapa_vox/'+sys.argv[1]+'_results.csv',
                                 header=0, 
                                 skiprows=lambda i: i>0 and random.random() > p) # ecapa vox
 elif model == 'ecapavoxmsp':
-    test3_results = pd.read_csv('../baseline_experiment/finetuned_ecapavox/ExperimentData/125epoch/'+sys.argv[1]+'_results.csv',
+    test_results = pd.read_csv('../baseline_experiment/finetuned_ecapavox/ExperimentData/125epoch/'+sys.argv[1]+'_results.csv',
                                 header=0, 
                                 skiprows=lambda i: i>0 and random.random() > p) # ecapa vox+msp
 elif model == 'ecapamsp':
-    test4_results = pd.read_csv('../baseline_experiment/ExperimentData/pretrained_ecapa_msp/'+sys.argv[1]+'_results.csv',
+    test_results = pd.read_csv('../baseline_experiment/ExperimentData/pretrained_ecapa_msp/'+sys.argv[1]+'_results.csv',
                                 header=0, 
                                 skiprows=lambda i: i>0 and random.random() > p) # ecapa msp
 

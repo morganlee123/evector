@@ -8,8 +8,8 @@ import sys
 # Purpose: Perform analysis on the computed results from E-Vector.
 
 # SYNTAX. Choose your set between val, test1, or test2
-# e.g., python evec_results_analysis.py [val/test1/test2] > [val/test1/test2].txt
-
+# e.g., python evec_results_analysis.py [val/test1/test2] [10token, 20token, 5token] > [val/test1/test2].txt
+tokensize = sys.argv[2]
 
 p = 0.01  # 1% or .01 of the lines works for val and test2.     0.5% or .005 works for test1
 if sys.argv[1] == 'test1':
@@ -18,7 +18,7 @@ else:
     p=0.01
 # keep the header, then take only 1% of lines
 # if random from [0,1] interval is greater than 0.01 the row will be skipped
-test_results = pd.read_csv('../ExperimentData/'+sys.argv[1]+'_results.csv',
+test_results = pd.read_csv('../ExperimentData/'+tokensize+'/'+sys.argv[1]+'_results.csv',
                             header=0, 
                             skiprows=lambda i: i>0 and random.random() > p) 
 
@@ -308,9 +308,9 @@ gen = torch.Tensor(genuine_scores)
 imp = torch.Tensor(impostor_scores)
 
 # Get EER
-#print('Computing EER...')
-#val_eer, threshold_eer = EER(gen,imp)
-#print('EER:', val_eer, '. Threshold@', threshold_eer)
+print('Computing EER...')
+val_eer, threshold_eer = EER(gen,imp)
+print('EER:', val_eer, '. Threshold@', threshold_eer)
 
 # MINDCF params c_miss=10, c_fa=1.0, p_target=0.01
 print('Computing MinDCF...')

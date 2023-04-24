@@ -87,6 +87,15 @@ else:
         X_test = np.array(X_test)
         y_test = np.array(y_test)
 
+        # random undersample code for balanced train set
+        from imblearn.under_sampling import RandomUnderSampler
+        rus = RandomUnderSampler()
+        X, y = rus.fit_resample(X, y)
+        unique, counts = np.unique(y, return_counts=True)
+        class_counts = dict(zip(unique, counts))
+        print('class counts', class_counts)
+        # end undersample code
+
         model.fit(X, y)
 
 
@@ -146,6 +155,17 @@ else:
         y = np.array(y)
         X_test = np.array(X_test)
         y_test = np.array(y_test)
+
+
+        # random undersample code for balanced train set
+        from imblearn.under_sampling import RandomUnderSampler
+        rus = RandomUnderSampler()
+        X, y = rus.fit_resample(X, y)
+        unique, counts = np.unique(y, return_counts=True)
+        class_counts = dict(zip(unique, counts))
+        print('class counts', class_counts)
+        # end undersample code
+
 
         model.fit(X, y)
 
