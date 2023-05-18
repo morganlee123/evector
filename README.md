@@ -17,7 +17,7 @@ Of course, you may have many questions about the code since it is vast and compl
 
 
 ### Resources/References
-- TODO: I'll list the papers here
+- E-Vector Paper: https://arxiv.org/abs/2305.07997 
 - https://github.com/lawlict/ECAPA-TDNN
 - https://github.com/iPRoBe-lab/DeepTalk
 - https://speechbrain.github.io/
