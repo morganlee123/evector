@@ -5,7 +5,7 @@ This is mostly my thesis work! Computed embeddings for all test sets are include
 Training and Evaluation data can be requested from the MSP lab at UTDallas. Thank you to Prof. Carlos Busso for granting permission of the data. The dataset details are here: [MSP-Podcast](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html)
 
 Architecture of E-Vector ([Full Paper](https://arxiv.org/abs/2305.07997))
-![Architecture](Figures/EVectorArchitecture.pdf?raw=true)
+![Architecture](Figures/EVectorArchitecture.png?raw=true)
 
 Here is a brief description of each relevant file:
 - encoder_preprocess.py preprocess the raw data from the MSP-Podcast root directory and stores preprocessed it in Data/
