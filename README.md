@@ -4,6 +4,10 @@ This is mostly my thesis work! Computed embeddings for all test sets are include
 
 Training and Evaluation data can be requested from the MSP lab at UTDallas. Thank you to Prof. Carlos Busso for granting permission of the data. The dataset details are here: [MSP-Podcast](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html)
 
+Architecture of E-Vector ([Full Paper](https://arxiv.org/abs/2305.07997))
+![Architecture](EVectorArchitecture.pdf)
+
+Here is a brief description of each relevant file:
 - encoder_preprocess.py preprocess the raw data from the MSP-Podcast root directory and stores preprocessed it in Data/
 - encoder_train.py will train models from scratch or could be refined to fine-tune models if you so desire.
 - speaker_verification_MSP.py will test SV on the MSP-Podcast testing sets.
